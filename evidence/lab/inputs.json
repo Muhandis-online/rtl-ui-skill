@@ -1,0 +1,134 @@
+{
+ "chromium": [
+  {
+   "case": "0",
+   "iconSide": "left (end)",
+   "textUnderIconPx": 0,
+   "contentBoxUnderIconPx": 0
+  },
+  {
+   "case": "1",
+   "iconSide": "right (start)",
+   "textUnderIconPx": 0,
+   "contentBoxUnderIconPx": 0
+  },
+  {
+   "case": "2",
+   "iconSide": "right (start)",
+   "textUnderIconPx": 15,
+   "contentBoxUnderIconPx": 15
+  },
+  {
+   "case": "3",
+   "iconSide": "left (end)",
+   "textUnderIconPx": 0,
+   "contentBoxUnderIconPx": 15
+  },
+  {
+   "case": "4",
+   "iconSide": "right (start)",
+   "textUnderIconPx": 0,
+   "contentBoxUnderIconPx": 0
+  },
+  {
+   "case": "5",
+   "iconSide": "left (end)",
+   "textUnderIconPx": 0,
+   "contentBoxUnderIconPx": 0
+  },
+  {
+   "case": "6",
+   "iconSide": "right (start)",
+   "textUnderIconPx": 15,
+   "contentBoxUnderIconPx": 15
+  }
+ ],
+ "firefox": [
+  {
+   "case": "0",
+   "iconSide": "left (end)",
+   "textUnderIconPx": 0,
+   "contentBoxUnderIconPx": 0
+  },
+  {
+   "case": "1",
+   "iconSide": "right (start)",
+   "textUnderIconPx": 0,
+   "contentBoxUnderIconPx": 0
+  },
+  {
+   "case": "2",
+   "iconSide": "right (start)",
+   "textUnderIconPx": 15,
+   "contentBoxUnderIconPx": 15
+  },
+  {
+   "case": "3",
+   "iconSide": "left (end)",
+   "textUnderIconPx": 0,
+   "contentBoxUnderIconPx": 15
+  },
+  {
+   "case": "4",
+   "iconSide": "right (start)",
+   "textUnderIconPx": 0,
+   "contentBoxUnderIconPx": 0
+  },
+  {
+   "case": "5",
+   "iconSide": "left (end)",
+   "textUnderIconPx": 0,
+   "contentBoxUnderIconPx": 0
+  },
+  {
+   "case": "6",
+   "iconSide": "right (start)",
+   "textUnderIconPx": 15,
+   "contentBoxUnderIconPx": 15
+  }
+ ],
+ "webkit": [
+  {
+   "case": "0",
+   "iconSide": "left (end)",
+   "textUnderIconPx": 0,
+   "contentBoxUnderIconPx": 0
+  },
+  {
+   "case": "1",
+   "iconSide": "right (start)",
+   "textUnderIconPx": 0,
+   "contentBoxUnderIconPx": 0
+  },
+  {
+   "case": "2",
+   "iconSide": "right (start)",
+   "textUnderIconPx": 15,
+   "contentBoxUnderIconPx": 15
+  },
+  {
+   "case": "3",
+   "iconSide": "left (end)",
+   "textUnderIconPx": 0,
+   "contentBoxUnderIconPx": 15
+  },
+  {
+   "case": "4",
+   "iconSide": "right (start)",
+   "textUnderIconPx": 0,
+   "contentBoxUnderIconPx": 0
+  },
+  {
+   "case": "5",
+   "iconSide": "left (end)",
+   "textUnderIconPx": 0,
+   "contentBoxUnderIconPx": 0
+  },
+  {
+   "case": "6",
+   "iconSide": "right (start)",
+   "textUnderIconPx": 15,
+   "contentBoxUnderIconPx": 15
+  }
+ ]
+}

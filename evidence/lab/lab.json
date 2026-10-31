@@ -1,0 +1,323 @@
+{
+ "chromium": {
+  "version": "141.0.7390.37",
+  "letter-spacing": [
+   {
+    "label": "letter-spacing: normal",
+    "width": 259,
+    "logical": "",
+    "visualLeftToRight": "",
+    "readsCorrectly": true
+   },
+   {
+    "label": "letter-spacing: 0.05em (tracking-wide)",
+    "width": 259,
+    "logical": "",
+    "visualLeftToRight": "",
+    "readsCorrectly": true
+   },
+   {
+    "label": "letter-spacing: -0.025em (tracking-tight)",
+    "width": 259,
+    "logical": "",
+    "visualLeftToRight": "",
+    "readsCorrectly": true
+   },
+   {
+    "label": "letter-spacing: 0.1em (tracking-widest)",
+    "width": 259,
+    "logical": "",
+    "visualLeftToRight": "",
+    "readsCorrectly": true
+   }
+  ],
+  "phone-email-in-rtl": [
+   {
+    "label": "plain",
+    "width": 412,
+    "logical": "+ 966 50 123 4567",
+    "visualLeftToRight": "4567 123 50 966 +",
+    "readsCorrectly": false
+   },
+   {
+    "label": "<span dir=ltr>",
+    "width": 609,
+    "logical": "+ 966 50 123 4567",
+    "visualLeftToRight": "+ 966 50 123 4567",
+    "readsCorrectly": true
+   },
+   {
+    "label": "<bdi>",
+    "width": 609,
+    "logical": "+ 966 50 123 4567",
+    "visualLeftToRight": "+ 966 50 123 4567",
+    "readsCorrectly": true
+   },
+   {
+    "label": "plain email",
+    "width": 462,
+    "logical": "support example com",
+    "visualLeftToRight": "support example com",
+    "readsCorrectly": true
+   },
+   {
+    "label": "plain, number then Arabic unit",
+    "width": 227,
+    "logical": "1,250",
+    "visualLeftToRight": "1,250",
+    "readsCorrectly": true
+   },
+   {
+    "label": "phone starting with digits (local)",
+    "width": 226,
+    "logical": "050 123 4567",
+    "visualLeftToRight": "4567 123 050",
+    "readsCorrectly": false
+   },
+   {
+    "label": "phone in its own element, no dir",
+    "width": 395,
+    "logical": "+ 966 50 123 4567",
+    "visualLeftToRight": "4567 123 50 966 +",
+    "readsCorrectly": false
+   }
+  ],
+  "uppercase-italic": [
+   {
+    "label": "normal",
+    "width": 241,
+    "logical": "",
+    "visualLeftToRight": "",
+    "readsCorrectly": true
+   },
+   {
+    "label": "text-transform: uppercase",
+    "width": 241,
+    "logical": "",
+    "visualLeftToRight": "",
+    "readsCorrectly": true
+   },
+   {
+    "label": "font-style: italic",
+    "width": 241,
+    "logical": "",
+    "visualLeftToRight": "",
+    "readsCorrectly": true
+   }
+  ]
+ },
+ "firefox": {
+  "version": "142.0.1",
+  "letter-spacing": [
+   {
+    "label": "letter-spacing: normal",
+    "width": 259,
+    "logical": "",
+    "visualLeftToRight": "",
+    "readsCorrectly": true
+   },
+   {
+    "label": "letter-spacing: 0.05em (tracking-wide)",
+    "width": 289,
+    "logical": "",
+    "visualLeftToRight": "",
+    "readsCorrectly": true
+   },
+   {
+    "label": "letter-spacing: -0.025em (tracking-tight)",
+    "width": 244,
+    "logical": "",
+    "visualLeftToRight": "",
+    "readsCorrectly": true
+   },
+   {
+    "label": "letter-spacing: 0.1em (tracking-widest)",
+    "width": 319,
+    "logical": "",
+    "visualLeftToRight": "",
+    "readsCorrectly": true
+   }
+  ],
+  "phone-email-in-rtl": [
+   {
+    "label": "plain",
+    "width": 412,
+    "logical": "+ 966 50 123 4567",
+    "visualLeftToRight": "4567 123 50 966 +",
+    "readsCorrectly": false
+   },
+   {
+    "label": "<span dir=ltr>",
+    "width": 609,
+    "logical": "+ 966 50 123 4567",
+    "visualLeftToRight": "+ 966 50 123 4567",
+    "readsCorrectly": true
+   },
+   {
+    "label": "<bdi>",
+    "width": 609,
+    "logical": "+ 966 50 123 4567",
+    "visualLeftToRight": "+ 966 50 123 4567",
+    "readsCorrectly": true
+   },
+   {
+    "label": "plain email",
+    "width": 462,
+    "logical": "support example com",
+    "visualLeftToRight": "support example com",
+    "readsCorrectly": true
+   },
+   {
+    "label": "plain, number then Arabic unit",
+    "width": 227,
+    "logical": "1,250",
+    "visualLeftToRight": "1,250",
+    "readsCorrectly": true
+   },
+   {
+    "label": "phone starting with digits (local)",
+    "width": 226,
+    "logical": "050 123 4567",
+    "visualLeftToRight": "4567 123 050",
+    "readsCorrectly": false
+   },
+   {
+    "label": "phone in its own element, no dir",
+    "width": 394,
+    "logical": "+ 966 50 123 4567",
+    "visualLeftToRight": "4567 123 50 966 +",
+    "readsCorrectly": false
+   }
+  ],
+  "uppercase-italic": [
+   {
+    "label": "normal",
+    "width": 241,
+    "logical": "",
+    "visualLeftToRight": "",
+    "readsCorrectly": true
+   },
+   {
+    "label": "text-transform: uppercase",
+    "width": 241,
+    "logical": "",
+    "visualLeftToRight": "",
+    "readsCorrectly": true
+   },
+   {
+    "label": "font-style: italic",
+    "width": 241,
+    "logical": "",
+    "visualLeftToRight": "",
+    "readsCorrectly": true
+   }
+  ]
+ },
+ "webkit": {
+  "version": "26.0",
+  "letter-spacing": [
+   {
+    "label": "letter-spacing: normal",
+    "width": 259,
+    "logical": "",
+    "visualLeftToRight": "",
+    "readsCorrectly": true
+   },
+   {
+    "label": "letter-spacing: 0.05em (tracking-wide)",
+    "width": 289,
+    "logical": "",
+    "visualLeftToRight": "",
+    "readsCorrectly": true
+   },
+   {
+    "label": "letter-spacing: -0.025em (tracking-tight)",
+    "width": 244,
+    "logical": "",
+    "visualLeftToRight": "",
+    "readsCorrectly": true
+   },
+   {
+    "label": "letter-spacing: 0.1em (tracking-widest)",
+    "width": 319,
+    "logical": "",
+    "visualLeftToRight": "",
+    "readsCorrectly": true
+   }
+  ],
+  "phone-email-in-rtl": [
+   {
+    "label": "plain",
+    "width": 412,
+    "logical": "+ 966 50 123 4567",
+    "visualLeftToRight": "4567 123 50 966 +",
+    "readsCorrectly": false
+   },
+   {
+    "label": "<span dir=ltr>",
+    "width": 609,
+    "logical": "+ 966 50 123 4567",
+    "visualLeftToRight": "+ 966 50 123 4567",
+    "readsCorrectly": true
+   },
+   {
+    "label": "<bdi>",
+    "width": 609,
+    "logical": "+ 966 50 123 4567",
+    "visualLeftToRight": "+ 966 50 123 4567",
+    "readsCorrectly": true
+   },
+   {
+    "label": "plain email",
+    "width": 462,
+    "logical": "support example com",
+    "visualLeftToRight": "support example com",
+    "readsCorrectly": true
+   },
+   {
+    "label": "plain, number then Arabic unit",
+    "width": 227,
+    "logical": "1,250",
+    "visualLeftToRight": "1,250",
+    "readsCorrectly": true
+   },
+   {
+    "label": "phone starting with digits (local)",
+    "width": 226,
+    "logical": "050 123 4567",
+    "visualLeftToRight": "4567 123 050",
+    "readsCorrectly": false
+   },
+   {
+    "label": "phone in its own element, no dir",
+    "width": 394,
+    "logical": "+ 966 50 123 4567",
+    "visualLeftToRight": "4567 123 50 966 +",
+    "readsCorrectly": false
+   }
+  ],
+  "uppercase-italic": [
+   {
+    "label": "normal",
+    "width": 241,
+    "logical": "",
+    "visualLeftToRight": "",
+    "readsCorrectly": true
+   },
+   {
+    "label": "text-transform: uppercase",
+    "width": 241,
+    "logical": "",
+    "visualLeftToRight": "",
+    "readsCorrectly": true
+   },
+   {
+    "label": "font-style: italic",
+    "width": 241,
+    "logical": "",
+    "visualLeftToRight": "",
+    "readsCorrectly": true
+   }
+  ]
+ }
+}

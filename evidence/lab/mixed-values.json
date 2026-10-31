@@ -1,0 +1,272 @@
+{
+ "chromium": [
+  {
+   "visualLeftToRight": "ريال | 10 | السعر",
+   "punctEdge": null
+  },
+  {
+   "visualLeftToRight": "10 | ريال | السعر",
+   "punctEdge": null
+  },
+  {
+   "visualLeftToRight": "سبتمبر | 15 | الموعد",
+   "punctEdge": null
+  },
+  {
+   "visualLeftToRight": "15 | سبتمبر | الموعد",
+   "punctEdge": null
+  },
+  {
+   "visualLeftToRight": "مساءً | 10:30 | يبدأ",
+   "punctEdge": null
+  },
+  {
+   "visualLeftToRight": "10:30 | مساءً | يبدأ",
+   "punctEdge": null
+  },
+  {
+   "visualLeftToRight": "يناير | 15-25 | من",
+   "punctEdge": null
+  },
+  {
+   "visualLeftToRight": "يناير | 15-25 | من",
+   "punctEdge": null
+  },
+  {
+   "visualLeftToRight": "10:00 - 12:00 | الدوام",
+   "punctEdge": null
+  },
+  {
+   "visualLeftToRight": "10:00 - 12:00 | الدوام",
+   "punctEdge": null
+  },
+  {
+   "visualLeftToRight": "ظهراً | 12:00 | إلى | صباحاً | 10:00 | من | الدوام",
+   "punctEdge": null
+  },
+  {
+   "visualLeftToRight": ". | info@nakhla.sa | على | راسلنا",
+   "punctEdge": "left end (end of an Arabic line)"
+  },
+  {
+   "visualLeftToRight": "info@nakhla.sa | . | على | راسلنا",
+   "punctEdge": "middle"
+  },
+  {
+   "visualLeftToRight": ". | info@nakhla.sa | على | راسلنا",
+   "punctEdge": "left end (end of an Arabic line)"
+  },
+  {
+   "visualLeftToRight": ". | 966 55 123 4567 | على | اتصل",
+   "punctEdge": "left end (end of an Arabic line)"
+  },
+  {
+   "visualLeftToRight": ". | 966 55 123 4567 | على | اتصل",
+   "punctEdge": "left end (end of an Arabic line)"
+  },
+  {
+   "visualLeftToRight": ". | React | بـ | مبني | الموقع",
+   "punctEdge": "left end (end of an Arabic line)"
+  },
+  {
+   "visualLeftToRight": "متجرنا | في | بك | مرحباً | .",
+   "punctEdge": "RIGHT end (start of an Arabic line)"
+  },
+  {
+   "visualLeftToRight": ". | متجرنا | في | بك | مرحباً",
+   "punctEdge": "left end (end of an Arabic line)"
+  },
+  {
+   "visualLeftToRight": "! | الآن | ابدأ | جاهز؟ | أنت | هل",
+   "punctEdge": "left end (end of an Arabic line)"
+  },
+  {
+   "visualLeftToRight": ") | طلباً | الأكثر | ( | الشاملة | الباقة",
+   "punctEdge": null
+  },
+  {
+   "visualLeftToRight": ") | طلباً | الأكثر | ( | الشاملة | الباقة",
+   "punctEdge": null
+  }
+ ],
+ "firefox": [
+  {
+   "visualLeftToRight": "ريال | 10 | السعر",
+   "punctEdge": null
+  },
+  {
+   "visualLeftToRight": "10 | ريال | السعر",
+   "punctEdge": null
+  },
+  {
+   "visualLeftToRight": "سبتمبر | 15 | الموعد",
+   "punctEdge": null
+  },
+  {
+   "visualLeftToRight": "15 | سبتمبر | الموعد",
+   "punctEdge": null
+  },
+  {
+   "visualLeftToRight": "مساءً | 10:30 | يبدأ",
+   "punctEdge": null
+  },
+  {
+   "visualLeftToRight": "10:30 | مساءً | يبدأ",
+   "punctEdge": null
+  },
+  {
+   "visualLeftToRight": "يناير | 15-25 | من",
+   "punctEdge": null
+  },
+  {
+   "visualLeftToRight": "يناير | 15-25 | من",
+   "punctEdge": null
+  },
+  {
+   "visualLeftToRight": "10:00 - 12:00 | الدوام",
+   "punctEdge": null
+  },
+  {
+   "visualLeftToRight": "10:00 - 12:00 | الدوام",
+   "punctEdge": null
+  },
+  {
+   "visualLeftToRight": "ظهراً | 12:00 | إلى | صباحاً | 10:00 | من | الدوام",
+   "punctEdge": null
+  },
+  {
+   "visualLeftToRight": ". | info@nakhla.sa | على | راسلنا",
+   "punctEdge": "left end (end of an Arabic line)"
+  },
+  {
+   "visualLeftToRight": "info@nakhla.sa | . | على | راسلنا",
+   "punctEdge": "middle"
+  },
+  {
+   "visualLeftToRight": ". | info@nakhla.sa | على | راسلنا",
+   "punctEdge": "left end (end of an Arabic line)"
+  },
+  {
+   "visualLeftToRight": ". | 966 55 123 4567 | على | اتصل",
+   "punctEdge": "left end (end of an Arabic line)"
+  },
+  {
+   "visualLeftToRight": ". | 966 55 123 4567 | على | اتصل",
+   "punctEdge": "left end (end of an Arabic line)"
+  },
+  {
+   "visualLeftToRight": ". | React | بـ | مبني | الموقع",
+   "punctEdge": "left end (end of an Arabic line)"
+  },
+  {
+   "visualLeftToRight": "متجرنا | في | بك | مرحباً | .",
+   "punctEdge": "RIGHT end (start of an Arabic line)"
+  },
+  {
+   "visualLeftToRight": ". | متجرنا | في | بك | مرحباً",
+   "punctEdge": "left end (end of an Arabic line)"
+  },
+  {
+   "visualLeftToRight": "! | الآن | ابدأ | جاهز؟ | أنت | هل",
+   "punctEdge": "left end (end of an Arabic line)"
+  },
+  {
+   "visualLeftToRight": ") | طلباً | الأكثر | ( | الشاملة | الباقة",
+   "punctEdge": null
+  },
+  {
+   "visualLeftToRight": ") | طلباً | الأكثر | ( | الشاملة | الباقة",
+   "punctEdge": null
+  }
+ ],
+ "webkit": [
+  {
+   "visualLeftToRight": "ريال | 10 | السعر",
+   "punctEdge": null
+  },
+  {
+   "visualLeftToRight": "10 | ريال | السعر",
+   "punctEdge": null
+  },
+  {
+   "visualLeftToRight": "سبتمبر | 15 | الموعد",
+   "punctEdge": null
+  },
+  {
+   "visualLeftToRight": "15 | سبتمبر | الموعد",
+   "punctEdge": null
+  },
+  {
+   "visualLeftToRight": "مساءً | 10:30 | يبدأ",
+   "punctEdge": null
+  },
+  {
+   "visualLeftToRight": "10:30 | مساءً | يبدأ",
+   "punctEdge": null
+  },
+  {
+   "visualLeftToRight": "يناير | 15-25 | من",
+   "punctEdge": null
+  },
+  {
+   "visualLeftToRight": "يناير | 15-25 | من",
+   "punctEdge": null
+  },
+  {
+   "visualLeftToRight": "10:00 - 12:00 | الدوام",
+   "punctEdge": null
+  },
+  {
+   "visualLeftToRight": "10:00 - 12:00 | الدوام",
+   "punctEdge": null
+  },
+  {
+   "visualLeftToRight": "ظهراً | 12:00 | إلى | صباحاً | 10:00 | من | الدوام",
+   "punctEdge": null
+  },
+  {
+   "visualLeftToRight": ". | info@nakhla.sa | على | راسلنا",
+   "punctEdge": "left end (end of an Arabic line)"
+  },
+  {
+   "visualLeftToRight": "info@nakhla.sa | . | على | راسلنا",
+   "punctEdge": "middle"
+  },
+  {
+   "visualLeftToRight": ". | info@nakhla.sa | على | راسلنا",
+   "punctEdge": "left end (end of an Arabic line)"
+  },
+  {
+   "visualLeftToRight": ". | 966 55 123 4567 | على | اتصل",
+   "punctEdge": "left end (end of an Arabic line)"
+  },
+  {
+   "visualLeftToRight": ". | 966 55 123 4567 | على | اتصل",
+   "punctEdge": "left end (end of an Arabic line)"
+  },
+  {
+   "visualLeftToRight": ". | React | بـ | مبني | الموقع",
+   "punctEdge": "left end (end of an Arabic line)"
+  },
+  {
+   "visualLeftToRight": "متجرنا | . | في | بك | مرحباً",
+   "punctEdge": "left end (end of an Arabic line)"
+  },
+  {
+   "visualLeftToRight": ". | متجرنا | في | بك | مرحباً",
+   "punctEdge": "left end (end of an Arabic line)"
+  },
+  {
+   "visualLeftToRight": "! | الآن | ابدأ | جاهز؟ | أنت | هل",
+   "punctEdge": "left end (end of an Arabic line)"
+  },
+  {
+   "visualLeftToRight": ") | طلباً | الأكثر | ( | الشاملة | الباقة",
+   "punctEdge": null
+  },
+  {
+   "visualLeftToRight": ") | طلباً | الأكثر | ( | الشاملة | الباقة",
+   "punctEdge": null
+  }
+ ]
+}

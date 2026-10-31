@@ -1,0 +1,2612 @@
+{
+ "runs": {
+  "t1-haiku-b1": {
+   "task": "t1",
+   "model": "haiku",
+   "condition": "baseline",
+   "cells": {
+    "page renders": ".",
+    "root rtl": ".",
+    "arabic font drawn": ".",
+    "phone in text": "-",
+    "phone in input": "-",
+    "text under icon": "-",
+    "wrong arrow": "-",
+    "range forced LTR": "-",
+    "time/date drawn out of order": "-",
+    "Arabic phrase wrapped LTR": "-",
+    "punctuation inside LTR wrapper": ".",
+    "Arabic in LTR element": "x (5 el)",
+    "letter-spacing on Arabic": ".",
+    "italic on Arabic": ".",
+    "english in UI": ".",
+    "sideways scroll (mobile)": ".",
+    "Arabic left-aligned": ".",
+    "language switch works": "-"
+   }
+  },
+  "t1-haiku-b2": {
+   "task": "t1",
+   "model": "haiku",
+   "condition": "baseline",
+   "cells": {
+    "page renders": ".",
+    "root rtl": ".",
+    "arabic font drawn": ".",
+    "phone in text": "-",
+    "phone in input": "-",
+    "text under icon": "-",
+    "wrong arrow": "-",
+    "range forced LTR": "-",
+    "time/date drawn out of order": "-",
+    "Arabic phrase wrapped LTR": "-",
+    "punctuation inside LTR wrapper": ".",
+    "Arabic in LTR element": ".",
+    "letter-spacing on Arabic": ".",
+    "italic on Arabic": "x (3)",
+    "english in UI": ".",
+    "sideways scroll (mobile)": ".",
+    "Arabic left-aligned": ".",
+    "language switch works": "-"
+   }
+  },
+  "t1-haiku-v5a": {
+   "task": "t1",
+   "model": "haiku",
+   "condition": "skill",
+   "cells": {
+    "page renders": ".",
+    "root rtl": ".",
+    "arabic font drawn": ".",
+    "phone in text": "-",
+    "phone in input": "-",
+    "text under icon": "-",
+    "wrong arrow": "-",
+    "range forced LTR": "-",
+    "time/date drawn out of order": "-",
+    "Arabic phrase wrapped LTR": "-",
+    "punctuation inside LTR wrapper": ".",
+    "Arabic in LTR element": ".",
+    "letter-spacing on Arabic": ".",
+    "italic on Arabic": ".",
+    "english in UI": ".",
+    "sideways scroll (mobile)": ".",
+    "Arabic left-aligned": ".",
+    "language switch works": "-"
+   }
+  },
+  "t1-haiku-v5b": {
+   "task": "t1",
+   "model": "haiku",
+   "condition": "skill",
+   "cells": {
+    "page renders": ".",
+    "root rtl": ".",
+    "arabic font drawn": ".",
+    "phone in text": "-",
+    "phone in input": "-",
+    "text under icon": "-",
+    "wrong arrow": "-",
+    "range forced LTR": "-",
+    "time/date drawn out of order": "-",
+    "Arabic phrase wrapped LTR": "-",
+    "punctuation inside LTR wrapper": ".",
+    "Arabic in LTR element": ".",
+    "letter-spacing on Arabic": ".",
+    "italic on Arabic": ".",
+    "english in UI": ".",
+    "sideways scroll (mobile)": ".",
+    "Arabic left-aligned": ".",
+    "language switch works": "-"
+   }
+  },
+  "t1-sonnet-b1": {
+   "task": "t1",
+   "model": "sonnet",
+   "condition": "baseline",
+   "cells": {
+    "page renders": ".",
+    "root rtl": ".",
+    "arabic font drawn": ".",
+    "phone in text": "-",
+    "phone in input": "-",
+    "text under icon": "-",
+    "wrong arrow": "-",
+    "range forced LTR": "-",
+    "time/date drawn out of order": "-",
+    "Arabic phrase wrapped LTR": "-",
+    "punctuation inside LTR wrapper": ".",
+    "Arabic in LTR element": "x (5 el)",
+    "letter-spacing on Arabic": ".",
+    "italic on Arabic": ".",
+    "english in UI": ".",
+    "sideways scroll (mobile)": ".",
+    "Arabic left-aligned": ".",
+    "language switch works": "-"
+   }
+  },
+  "t1-sonnet-b2": {
+   "task": "t1",
+   "model": "sonnet",
+   "condition": "baseline",
+   "cells": {
+    "page renders": ".",
+    "root rtl": ".",
+    "arabic font drawn": ".",
+    "phone in text": "-",
+    "phone in input": "-",
+    "text under icon": "-",
+    "wrong arrow": "-",
+    "range forced LTR": "-",
+    "time/date drawn out of order": "-",
+    "Arabic phrase wrapped LTR": "-",
+    "punctuation inside LTR wrapper": ".",
+    "Arabic in LTR element": "x (5 el)",
+    "letter-spacing on Arabic": ".",
+    "italic on Arabic": ".",
+    "english in UI": ".",
+    "sideways scroll (mobile)": ".",
+    "Arabic left-aligned": ".",
+    "language switch works": "-"
+   }
+  },
+  "t1-sonnet-v5a": {
+   "task": "t1",
+   "model": "sonnet",
+   "condition": "skill",
+   "cells": {
+    "page renders": ".",
+    "root rtl": ".",
+    "arabic font drawn": ".",
+    "phone in text": "-",
+    "phone in input": "-",
+    "text under icon": "-",
+    "wrong arrow": "-",
+    "range forced LTR": "-",
+    "time/date drawn out of order": "-",
+    "Arabic phrase wrapped LTR": "-",
+    "punctuation inside LTR wrapper": ".",
+    "Arabic in LTR element": ".",
+    "letter-spacing on Arabic": ".",
+    "italic on Arabic": ".",
+    "english in UI": ".",
+    "sideways scroll (mobile)": ".",
+    "Arabic left-aligned": ".",
+    "language switch works": "-"
+   }
+  },
+  "t1-sonnet-v5b": {
+   "task": "t1",
+   "model": "sonnet",
+   "condition": "skill",
+   "cells": {
+    "page renders": ".",
+    "root rtl": ".",
+    "arabic font drawn": ".",
+    "phone in text": "-",
+    "phone in input": "-",
+    "text under icon": "-",
+    "wrong arrow": "-",
+    "range forced LTR": "-",
+    "time/date drawn out of order": "-",
+    "Arabic phrase wrapped LTR": "-",
+    "punctuation inside LTR wrapper": ".",
+    "Arabic in LTR element": ".",
+    "letter-spacing on Arabic": ".",
+    "italic on Arabic": ".",
+    "english in UI": ".",
+    "sideways scroll (mobile)": ".",
+    "Arabic left-aligned": ".",
+    "language switch works": "-"
+   }
+  },
+  "t3-haiku-b1": {
+   "task": "t3",
+   "model": "haiku",
+   "condition": "baseline",
+   "cells": {
+    "page renders": ".",
+    "root rtl": ".",
+    "arabic font drawn": ".",
+    "phone in text": "-",
+    "phone in input": "-",
+    "text under icon": "-",
+    "wrong arrow": ".",
+    "range forced LTR": "-",
+    "time/date drawn out of order": "-",
+    "Arabic phrase wrapped LTR": "-",
+    "punctuation inside LTR wrapper": ".",
+    "Arabic in LTR element": ".",
+    "letter-spacing on Arabic": ".",
+    "italic on Arabic": ".",
+    "english in UI": ".",
+    "sideways scroll (mobile)": ".",
+    "Arabic left-aligned": ".",
+    "language switch works": "-"
+   }
+  },
+  "t3-haiku-b2": {
+   "task": "t3",
+   "model": "haiku",
+   "condition": "baseline",
+   "cells": {
+    "page renders": ".",
+    "root rtl": ".",
+    "arabic font drawn": ".",
+    "phone in text": "-",
+    "phone in input": "-",
+    "text under icon": "-",
+    "wrong arrow": ".",
+    "range forced LTR": "-",
+    "time/date drawn out of order": "-",
+    "Arabic phrase wrapped LTR": "-",
+    "punctuation inside LTR wrapper": ".",
+    "Arabic in LTR element": ".",
+    "letter-spacing on Arabic": ".",
+    "italic on Arabic": ".",
+    "english in UI": ".",
+    "sideways scroll (mobile)": ".",
+    "Arabic left-aligned": ".",
+    "language switch works": "-"
+   }
+  },
+  "t3-haiku-v5a": {
+   "task": "t3",
+   "model": "haiku",
+   "condition": "skill",
+   "cells": {
+    "page renders": ".",
+    "root rtl": ".",
+    "arabic font drawn": ".",
+    "phone in text": "-",
+    "phone in input": "-",
+    "text under icon": "-",
+    "wrong arrow": ".",
+    "range forced LTR": "-",
+    "time/date drawn out of order": "-",
+    "Arabic phrase wrapped LTR": "-",
+    "punctuation inside LTR wrapper": ".",
+    "Arabic in LTR element": ".",
+    "letter-spacing on Arabic": ".",
+    "italic on Arabic": ".",
+    "english in UI": ".",
+    "sideways scroll (mobile)": ".",
+    "Arabic left-aligned": ".",
+    "language switch works": "-"
+   }
+  },
+  "t3-haiku-v5b": {
+   "task": "t3",
+   "model": "haiku",
+   "condition": "skill",
+   "cells": {
+    "page renders": ".",
+    "root rtl": ".",
+    "arabic font drawn": ".",
+    "phone in text": "-",
+    "phone in input": "-",
+    "text under icon": "-",
+    "wrong arrow": ".",
+    "range forced LTR": "-",
+    "time/date drawn out of order": "-",
+    "Arabic phrase wrapped LTR": "-",
+    "punctuation inside LTR wrapper": ".",
+    "Arabic in LTR element": ".",
+    "letter-spacing on Arabic": ".",
+    "italic on Arabic": ".",
+    "english in UI": ".",
+    "sideways scroll (mobile)": ".",
+    "Arabic left-aligned": ".",
+    "language switch works": "-"
+   }
+  },
+  "t3-sonnet-b1": {
+   "task": "t3",
+   "model": "sonnet",
+   "condition": "baseline",
+   "cells": {
+    "page renders": ".",
+    "root rtl": ".",
+    "arabic font drawn": ".",
+    "phone in text": "-",
+    "phone in input": "-",
+    "text under icon": "-",
+    "wrong arrow": ".",
+    "range forced LTR": "-",
+    "time/date drawn out of order": "-",
+    "Arabic phrase wrapped LTR": "-",
+    "punctuation inside LTR wrapper": ".",
+    "Arabic in LTR element": ".",
+    "letter-spacing on Arabic": ".",
+    "italic on Arabic": ".",
+    "english in UI": ".",
+    "sideways scroll (mobile)": ".",
+    "Arabic left-aligned": ".",
+    "language switch works": "-"
+   }
+  },
+  "t3-sonnet-b2": {
+   "task": "t3",
+   "model": "sonnet",
+   "condition": "baseline",
+   "cells": {
+    "page renders": ".",
+    "root rtl": ".",
+    "arabic font drawn": ".",
+    "phone in text": "-",
+    "phone in input": "-",
+    "text under icon": "-",
+    "wrong arrow": ".",
+    "range forced LTR": "-",
+    "time/date drawn out of order": "-",
+    "Arabic phrase wrapped LTR": "-",
+    "punctuation inside LTR wrapper": ".",
+    "Arabic in LTR element": ".",
+    "letter-spacing on Arabic": ".",
+    "italic on Arabic": ".",
+    "english in UI": ".",
+    "sideways scroll (mobile)": ".",
+    "Arabic left-aligned": ".",
+    "language switch works": "-"
+   }
+  },
+  "t3-sonnet-v5a": {
+   "task": "t3",
+   "model": "sonnet",
+   "condition": "skill",
+   "cells": {
+    "page renders": ".",
+    "root rtl": ".",
+    "arabic font drawn": ".",
+    "phone in text": "-",
+    "phone in input": "-",
+    "text under icon": "-",
+    "wrong arrow": ".",
+    "range forced LTR": "-",
+    "time/date drawn out of order": "-",
+    "Arabic phrase wrapped LTR": "-",
+    "punctuation inside LTR wrapper": ".",
+    "Arabic in LTR element": ".",
+    "letter-spacing on Arabic": ".",
+    "italic on Arabic": ".",
+    "english in UI": ".",
+    "sideways scroll (mobile)": ".",
+    "Arabic left-aligned": ".",
+    "language switch works": "-"
+   }
+  },
+  "t3-sonnet-v5b": {
+   "task": "t3",
+   "model": "sonnet",
+   "condition": "skill",
+   "cells": {
+    "page renders": ".",
+    "root rtl": ".",
+    "arabic font drawn": ".",
+    "phone in text": "-",
+    "phone in input": "-",
+    "text under icon": "-",
+    "wrong arrow": ".",
+    "range forced LTR": "-",
+    "time/date drawn out of order": "-",
+    "Arabic phrase wrapped LTR": "-",
+    "punctuation inside LTR wrapper": ".",
+    "Arabic in LTR element": ".",
+    "letter-spacing on Arabic": ".",
+    "italic on Arabic": ".",
+    "english in UI": ".",
+    "sideways scroll (mobile)": ".",
+    "Arabic left-aligned": ".",
+    "language switch works": "-"
+   }
+  },
+  "t4-haiku": {
+   "task": "t4",
+   "model": "haiku",
+   "condition": "baseline",
+   "cells": {
+    "page renders": ".",
+    "root rtl": ".",
+    "arabic font drawn": ".",
+    "phone in text": "x",
+    "phone in input": "-",
+    "text under icon": "-",
+    "wrong arrow": ".",
+    "range forced LTR": "-",
+    "time/date drawn out of order": "-",
+    "Arabic phrase wrapped LTR": "-",
+    "punctuation inside LTR wrapper": ".",
+    "Arabic in LTR element": ".",
+    "letter-spacing on Arabic": ".",
+    "italic on Arabic": ".",
+    "english in UI": ".",
+    "sideways scroll (mobile)": ".",
+    "Arabic left-aligned": ".",
+    "language switch works": "-"
+   }
+  },
+  "t4-haiku-b2": {
+   "task": "t4",
+   "model": "haiku",
+   "condition": "baseline",
+   "cells": {
+    "page renders": ".",
+    "root rtl": ".",
+    "arabic font drawn": ".",
+    "phone in text": ".",
+    "phone in input": "-",
+    "text under icon": "-",
+    "wrong arrow": "x (chevron-right:الرأي التالي; chevron-left:الرأي السابق)",
+    "range forced LTR": "-",
+    "time/date drawn out of order": "-",
+    "Arabic phrase wrapped LTR": "-",
+    "punctuation inside LTR wrapper": ".",
+    "Arabic in LTR element": ".",
+    "letter-spacing on Arabic": ".",
+    "italic on Arabic": ".",
+    "english in UI": ".",
+    "sideways scroll (mobile)": ".",
+    "Arabic left-aligned": ".",
+    "language switch works": "-"
+   }
+  },
+  "t4-haiku-v5a": {
+   "task": "t4",
+   "model": "haiku",
+   "condition": "skill",
+   "cells": {
+    "page renders": ".",
+    "root rtl": ".",
+    "arabic font drawn": ".",
+    "phone in text": ".",
+    "phone in input": "-",
+    "text under icon": "-",
+    "wrong arrow": ".",
+    "range forced LTR": "-",
+    "time/date drawn out of order": "-",
+    "Arabic phrase wrapped LTR": "-",
+    "punctuation inside LTR wrapper": ".",
+    "Arabic in LTR element": ".",
+    "letter-spacing on Arabic": ".",
+    "italic on Arabic": ".",
+    "english in UI": ".",
+    "sideways scroll (mobile)": ".",
+    "Arabic left-aligned": ".",
+    "language switch works": "-"
+   }
+  },
+  "t4-haiku-v5b": {
+   "task": "t4",
+   "model": "haiku",
+   "condition": "skill",
+   "cells": {
+    "page renders": ".",
+    "root rtl": ".",
+    "arabic font drawn": ".",
+    "phone in text": ".",
+    "phone in input": "-",
+    "text under icon": "-",
+    "wrong arrow": ".",
+    "range forced LTR": "-",
+    "time/date drawn out of order": "-",
+    "Arabic phrase wrapped LTR": "-",
+    "punctuation inside LTR wrapper": ".",
+    "Arabic in LTR element": ".",
+    "letter-spacing on Arabic": ".",
+    "italic on Arabic": ".",
+    "english in UI": ".",
+    "sideways scroll (mobile)": ".",
+    "Arabic left-aligned": ".",
+    "language switch works": "-"
+   }
+  },
+  "t4-sonnet": {
+   "task": "t4",
+   "model": "sonnet",
+   "condition": "baseline",
+   "cells": {
+    "page renders": ".",
+    "root rtl": ".",
+    "arabic font drawn": ".",
+    "phone in text": ".",
+    "phone in input": "-",
+    "text under icon": "-",
+    "wrong arrow": ".",
+    "range forced LTR": "-",
+    "time/date drawn out of order": "-",
+    "Arabic phrase wrapped LTR": "-",
+    "punctuation inside LTR wrapper": ".",
+    "Arabic in LTR element": ".",
+    "letter-spacing on Arabic": ".",
+    "italic on Arabic": ".",
+    "english in UI": ".",
+    "sideways scroll (mobile)": ".",
+    "Arabic left-aligned": ".",
+    "language switch works": "-"
+   }
+  },
+  "t4-sonnet-b2": {
+   "task": "t4",
+   "model": "sonnet",
+   "condition": "baseline",
+   "cells": {
+    "page renders": ".",
+    "root rtl": ".",
+    "arabic font drawn": ".",
+    "phone in text": ".",
+    "phone in input": "-",
+    "text under icon": "-",
+    "wrong arrow": ".",
+    "range forced LTR": "-",
+    "time/date drawn out of order": "-",
+    "Arabic phrase wrapped LTR": "-",
+    "punctuation inside LTR wrapper": ".",
+    "Arabic in LTR element": ".",
+    "letter-spacing on Arabic": ".",
+    "italic on Arabic": ".",
+    "english in UI": ".",
+    "sideways scroll (mobile)": ".",
+    "Arabic left-aligned": ".",
+    "language switch works": "-"
+   }
+  },
+  "t4-sonnet-v5a": {
+   "task": "t4",
+   "model": "sonnet",
+   "condition": "skill",
+   "cells": {
+    "page renders": ".",
+    "root rtl": ".",
+    "arabic font drawn": ".",
+    "phone in text": ".",
+    "phone in input": "-",
+    "text under icon": "-",
+    "wrong arrow": ".",
+    "range forced LTR": "-",
+    "time/date drawn out of order": "-",
+    "Arabic phrase wrapped LTR": "-",
+    "punctuation inside LTR wrapper": ".",
+    "Arabic in LTR element": ".",
+    "letter-spacing on Arabic": ".",
+    "italic on Arabic": ".",
+    "english in UI": ".",
+    "sideways scroll (mobile)": ".",
+    "Arabic left-aligned": ".",
+    "language switch works": "-"
+   }
+  },
+  "t4-sonnet-v5b": {
+   "task": "t4",
+   "model": "sonnet",
+   "condition": "skill",
+   "cells": {
+    "page renders": ".",
+    "root rtl": ".",
+    "arabic font drawn": ".",
+    "phone in text": ".",
+    "phone in input": "-",
+    "text under icon": "-",
+    "wrong arrow": ".",
+    "range forced LTR": "-",
+    "time/date drawn out of order": "-",
+    "Arabic phrase wrapped LTR": "-",
+    "punctuation inside LTR wrapper": ".",
+    "Arabic in LTR element": ".",
+    "letter-spacing on Arabic": ".",
+    "italic on Arabic": ".",
+    "english in UI": ".",
+    "sideways scroll (mobile)": ".",
+    "Arabic left-aligned": ".",
+    "language switch works": "-"
+   }
+  },
+  "t5-haiku": {
+   "task": "t5",
+   "model": "haiku",
+   "condition": "baseline",
+   "cells": {
+    "page renders": ".",
+    "root rtl": "x",
+    "arabic font drawn": "x (segoe ui semibold)",
+    "phone in text": "-",
+    "phone in input": ".",
+    "text under icon": "x (password)",
+    "wrong arrow": "-",
+    "range forced LTR": "-",
+    "time/date drawn out of order": "-",
+    "Arabic phrase wrapped LTR": "-",
+    "punctuation inside LTR wrapper": ".",
+    "Arabic in LTR element": "x (ph:8 أحرف على الأقل)",
+    "letter-spacing on Arabic": ".",
+    "italic on Arabic": ".",
+    "english in UI": ".",
+    "sideways scroll (mobile)": ".",
+    "Arabic left-aligned": ".",
+    "language switch works": "-"
+   }
+  },
+  "t5-haiku-b2": {
+   "task": "t5",
+   "model": "haiku",
+   "condition": "baseline",
+   "cells": {
+    "page renders": ".",
+    "root rtl": "x",
+    "arabic font drawn": "x (segoe ui semibold)",
+    "phone in text": "-",
+    "phone in input": ".",
+    "text under icon": ".",
+    "wrong arrow": "-",
+    "range forced LTR": "-",
+    "time/date drawn out of order": "-",
+    "Arabic phrase wrapped LTR": "-",
+    "punctuation inside LTR wrapper": ".",
+    "Arabic in LTR element": "x (ph:8 أحرف على الأقل)",
+    "letter-spacing on Arabic": ".",
+    "italic on Arabic": ".",
+    "english in UI": ".",
+    "sideways scroll (mobile)": ".",
+    "Arabic left-aligned": ".",
+    "language switch works": "-"
+   }
+  },
+  "t5-haiku-v5a": {
+   "task": "t5",
+   "model": "haiku",
+   "condition": "skill",
+   "cells": {
+    "page renders": ".",
+    "root rtl": ".",
+    "arabic font drawn": ".",
+    "phone in text": "-",
+    "phone in input": ".",
+    "text under icon": ".",
+    "wrong arrow": ".",
+    "range forced LTR": "-",
+    "time/date drawn out of order": "-",
+    "Arabic phrase wrapped LTR": "-",
+    "punctuation inside LTR wrapper": ".",
+    "Arabic in LTR element": ".",
+    "letter-spacing on Arabic": ".",
+    "italic on Arabic": ".",
+    "english in UI": ".",
+    "sideways scroll (mobile)": ".",
+    "Arabic left-aligned": ".",
+    "language switch works": "-"
+   }
+  },
+  "t5-haiku-v5b": {
+   "task": "t5",
+   "model": "haiku",
+   "condition": "skill",
+   "cells": {
+    "page renders": ".",
+    "root rtl": ".",
+    "arabic font drawn": ".",
+    "phone in text": "-",
+    "phone in input": ".",
+    "text under icon": "x (text)",
+    "wrong arrow": ".",
+    "range forced LTR": "-",
+    "time/date drawn out of order": "-",
+    "Arabic phrase wrapped LTR": "-",
+    "punctuation inside LTR wrapper": ".",
+    "Arabic in LTR element": ".",
+    "letter-spacing on Arabic": ".",
+    "italic on Arabic": ".",
+    "english in UI": ".",
+    "sideways scroll (mobile)": ".",
+    "Arabic left-aligned": ".",
+    "language switch works": "-"
+   }
+  },
+  "t5-sonnet": {
+   "task": "t5",
+   "model": "sonnet",
+   "condition": "baseline",
+   "cells": {
+    "page renders": ".",
+    "root rtl": ".",
+    "arabic font drawn": ".",
+    "phone in text": "-",
+    "phone in input": "-",
+    "text under icon": "x (password)",
+    "wrong arrow": "-",
+    "range forced LTR": "-",
+    "time/date drawn out of order": "-",
+    "Arabic phrase wrapped LTR": "-",
+    "punctuation inside LTR wrapper": ".",
+    "Arabic in LTR element": ".",
+    "letter-spacing on Arabic": ".",
+    "italic on Arabic": ".",
+    "english in UI": ".",
+    "sideways scroll (mobile)": ".",
+    "Arabic left-aligned": ".",
+    "language switch works": "-"
+   }
+  },
+  "t5-sonnet-b2": {
+   "task": "t5",
+   "model": "sonnet",
+   "condition": "baseline",
+   "cells": {
+    "page renders": ".",
+    "root rtl": ".",
+    "arabic font drawn": ".",
+    "phone in text": "-",
+    "phone in input": "-",
+    "text under icon": ".",
+    "wrong arrow": "-",
+    "range forced LTR": "-",
+    "time/date drawn out of order": "-",
+    "Arabic phrase wrapped LTR": "-",
+    "punctuation inside LTR wrapper": ".",
+    "Arabic in LTR element": ".",
+    "letter-spacing on Arabic": ".",
+    "italic on Arabic": ".",
+    "english in UI": ".",
+    "sideways scroll (mobile)": ".",
+    "Arabic left-aligned": ".",
+    "language switch works": "-"
+   }
+  },
+  "t5-sonnet-v5a": {
+   "task": "t5",
+   "model": "sonnet",
+   "condition": "skill",
+   "cells": {
+    "page renders": ".",
+    "root rtl": ".",
+    "arabic font drawn": ".",
+    "phone in text": "-",
+    "phone in input": ".",
+    "text under icon": ".",
+    "wrong arrow": ".",
+    "range forced LTR": "-",
+    "time/date drawn out of order": "-",
+    "Arabic phrase wrapped LTR": "-",
+    "punctuation inside LTR wrapper": ".",
+    "Arabic in LTR element": ".",
+    "letter-spacing on Arabic": ".",
+    "italic on Arabic": ".",
+    "english in UI": ".",
+    "sideways scroll (mobile)": ".",
+    "Arabic left-aligned": ".",
+    "language switch works": "-"
+   }
+  },
+  "t5-sonnet-v5b": {
+   "task": "t5",
+   "model": "sonnet",
+   "condition": "skill",
+   "cells": {
+    "page renders": ".",
+    "root rtl": ".",
+    "arabic font drawn": ".",
+    "phone in text": "-",
+    "phone in input": ".",
+    "text under icon": ".",
+    "wrong arrow": ".",
+    "range forced LTR": "-",
+    "time/date drawn out of order": "-",
+    "Arabic phrase wrapped LTR": "-",
+    "punctuation inside LTR wrapper": ".",
+    "Arabic in LTR element": ".",
+    "letter-spacing on Arabic": ".",
+    "italic on Arabic": ".",
+    "english in UI": ".",
+    "sideways scroll (mobile)": ".",
+    "Arabic left-aligned": ".",
+    "language switch works": "-"
+   }
+  },
+  "t6-haiku-b1": {
+   "task": "t6",
+   "model": "haiku",
+   "condition": "baseline",
+   "cells": {
+    "page renders": ".",
+    "root rtl": ".",
+    "arabic font drawn": ".",
+    "phone in text": ".",
+    "phone in input": "-",
+    "text under icon": "-",
+    "wrong arrow": ".",
+    "range forced LTR": "-",
+    "time/date drawn out of order": "-",
+    "Arabic phrase wrapped LTR": "-",
+    "punctuation inside LTR wrapper": ".",
+    "Arabic in LTR element": "x (2 el)",
+    "letter-spacing on Arabic": ".",
+    "italic on Arabic": ".",
+    "english in UI": "x (Switch language to English)",
+    "sideways scroll (mobile)": ".",
+    "Arabic left-aligned": ".",
+    "language switch works": "."
+   }
+  },
+  "t6-haiku-b2": {
+   "task": "t6",
+   "model": "haiku",
+   "condition": "baseline",
+   "cells": {
+    "page renders": ".",
+    "root rtl": ".",
+    "arabic font drawn": ".",
+    "phone in text": "x",
+    "phone in input": "-",
+    "text under icon": "-",
+    "wrong arrow": ".",
+    "range forced LTR": "-",
+    "time/date drawn out of order": "-",
+    "Arabic phrase wrapped LTR": "-",
+    "punctuation inside LTR wrapper": ".",
+    "Arabic in LTR element": ".",
+    "letter-spacing on Arabic": ".",
+    "italic on Arabic": ".",
+    "english in UI": ".",
+    "sideways scroll (mobile)": ".",
+    "Arabic left-aligned": ".",
+    "language switch works": "."
+   }
+  },
+  "t6-haiku-v5a": {
+   "task": "t6",
+   "model": "haiku",
+   "condition": "skill",
+   "cells": {
+    "page renders": ".",
+    "root rtl": ".",
+    "arabic font drawn": "x (segoe ui semibold)",
+    "phone in text": ".",
+    "phone in input": "-",
+    "text under icon": "-",
+    "wrong arrow": ".",
+    "range forced LTR": "-",
+    "time/date drawn out of order": "-",
+    "Arabic phrase wrapped LTR": "-",
+    "punctuation inside LTR wrapper": ".",
+    "Arabic in LTR element": ".",
+    "letter-spacing on Arabic": ".",
+    "italic on Arabic": ".",
+    "english in UI": ".",
+    "sideways scroll (mobile)": ".",
+    "Arabic left-aligned": ".",
+    "language switch works": "."
+   }
+  },
+  "t6-haiku-v5b": {
+   "task": "t6",
+   "model": "haiku",
+   "condition": "skill",
+   "cells": {
+    "page renders": ".",
+    "root rtl": ".",
+    "arabic font drawn": ".",
+    "phone in text": ".",
+    "phone in input": "-",
+    "text under icon": "-",
+    "wrong arrow": ".",
+    "range forced LTR": "-",
+    "time/date drawn out of order": "-",
+    "Arabic phrase wrapped LTR": "-",
+    "punctuation inside LTR wrapper": ".",
+    "Arabic in LTR element": ".",
+    "letter-spacing on Arabic": ".",
+    "italic on Arabic": ".",
+    "english in UI": ".",
+    "sideways scroll (mobile)": ".",
+    "Arabic left-aligned": ".",
+    "language switch works": "."
+   }
+  },
+  "t6-sonnet-b1": {
+   "task": "t6",
+   "model": "sonnet",
+   "condition": "baseline",
+   "cells": {
+    "page renders": ".",
+    "root rtl": ".",
+    "arabic font drawn": ".",
+    "phone in text": ".",
+    "phone in input": "-",
+    "text under icon": "-",
+    "wrong arrow": ".",
+    "range forced LTR": "-",
+    "time/date drawn out of order": "-",
+    "Arabic phrase wrapped LTR": ".",
+    "punctuation inside LTR wrapper": ".",
+    "Arabic in LTR element": ".",
+    "letter-spacing on Arabic": ".",
+    "italic on Arabic": ".",
+    "english in UI": ".",
+    "sideways scroll (mobile)": ".",
+    "Arabic left-aligned": ".",
+    "language switch works": "."
+   }
+  },
+  "t6-sonnet-b2": {
+   "task": "t6",
+   "model": "sonnet",
+   "condition": "baseline",
+   "cells": {
+    "page renders": "x (TypeError: Cannot read properties of null (reading)",
+    "root rtl": ".",
+    "arabic font drawn": "x ()",
+    "phone in text": "-",
+    "phone in input": "-",
+    "text under icon": "-",
+    "wrong arrow": "-",
+    "range forced LTR": "-",
+    "time/date drawn out of order": "-",
+    "Arabic phrase wrapped LTR": "-",
+    "punctuation inside LTR wrapper": ".",
+    "Arabic in LTR element": ".",
+    "letter-spacing on Arabic": ".",
+    "italic on Arabic": ".",
+    "english in UI": ".",
+    "sideways scroll (mobile)": ".",
+    "Arabic left-aligned": ".",
+    "language switch works": "x"
+   }
+  },
+  "t6-sonnet-v5a": {
+   "task": "t6",
+   "model": "sonnet",
+   "condition": "skill",
+   "cells": {
+    "page renders": ".",
+    "root rtl": ".",
+    "arabic font drawn": ".",
+    "phone in text": ".",
+    "phone in input": "-",
+    "text under icon": "-",
+    "wrong arrow": ".",
+    "range forced LTR": "-",
+    "time/date drawn out of order": "-",
+    "Arabic phrase wrapped LTR": "-",
+    "punctuation inside LTR wrapper": ".",
+    "Arabic in LTR element": ".",
+    "letter-spacing on Arabic": ".",
+    "italic on Arabic": ".",
+    "english in UI": ".",
+    "sideways scroll (mobile)": ".",
+    "Arabic left-aligned": ".",
+    "language switch works": "."
+   }
+  },
+  "t6-sonnet-v5b": {
+   "task": "t6",
+   "model": "sonnet",
+   "condition": "skill",
+   "cells": {
+    "page renders": ".",
+    "root rtl": ".",
+    "arabic font drawn": ".",
+    "phone in text": ".",
+    "phone in input": "-",
+    "text under icon": "-",
+    "wrong arrow": ".",
+    "range forced LTR": "-",
+    "time/date drawn out of order": "-",
+    "Arabic phrase wrapped LTR": ".",
+    "punctuation inside LTR wrapper": ".",
+    "Arabic in LTR element": ".",
+    "letter-spacing on Arabic": ".",
+    "italic on Arabic": ".",
+    "english in UI": ".",
+    "sideways scroll (mobile)": ".",
+    "Arabic left-aligned": ".",
+    "language switch works": "."
+   }
+  },
+  "t7-haiku-b1": {
+   "task": "t7",
+   "model": "haiku",
+   "condition": "baseline",
+   "cells": {
+    "page renders": ".",
+    "root rtl": ".",
+    "arabic font drawn": ".",
+    "phone in text": ".",
+    "phone in input": "-",
+    "text under icon": ".",
+    "wrong arrow": ".",
+    "range forced LTR": ".",
+    "time/date drawn out of order": ".",
+    "Arabic phrase wrapped LTR": "-",
+    "punctuation inside LTR wrapper": ".",
+    "Arabic in LTR element": "x (3 el)",
+    "letter-spacing on Arabic": ".",
+    "italic on Arabic": ".",
+    "english in UI": ".",
+    "sideways scroll (mobile)": ".",
+    "Arabic left-aligned": ".",
+    "language switch works": "-"
+   }
+  },
+  "t7-haiku-b2": {
+   "task": "t7",
+   "model": "haiku",
+   "condition": "baseline",
+   "cells": {
+    "page renders": ".",
+    "root rtl": "x",
+    "arabic font drawn": "x (segoe ui)",
+    "phone in text": ".",
+    "phone in input": "-",
+    "text under icon": ".",
+    "wrong arrow": ".",
+    "range forced LTR": "x (9:00 - 17:00)",
+    "time/date drawn out of order": "-",
+    "Arabic phrase wrapped LTR": ".",
+    "punctuation inside LTR wrapper": ".",
+    "Arabic in LTR element": "x (3 el)",
+    "letter-spacing on Arabic": ".",
+    "italic on Arabic": ".",
+    "english in UI": ".",
+    "sideways scroll (mobile)": ".",
+    "Arabic left-aligned": ".",
+    "language switch works": "-"
+   }
+  },
+  "t7-haiku-v5a": {
+   "task": "t7",
+   "model": "haiku",
+   "condition": "skill",
+   "cells": {
+    "page renders": ".",
+    "root rtl": ".",
+    "arabic font drawn": ".",
+    "phone in text": ".",
+    "phone in input": "-",
+    "text under icon": ".",
+    "wrong arrow": ".",
+    "range forced LTR": "x (9:00 - 17:00)",
+    "time/date drawn out of order": ".",
+    "Arabic phrase wrapped LTR": "-",
+    "punctuation inside LTR wrapper": ".",
+    "Arabic in LTR element": "x (6 el; ph:ابحث بالاسم أو ر)",
+    "letter-spacing on Arabic": ".",
+    "italic on Arabic": ".",
+    "english in UI": ".",
+    "sideways scroll (mobile)": ".",
+    "Arabic left-aligned": ".",
+    "language switch works": "-"
+   }
+  },
+  "t7-haiku-v5b": {
+   "task": "t7",
+   "model": "haiku",
+   "condition": "skill",
+   "cells": {
+    "page renders": ".",
+    "root rtl": ".",
+    "arabic font drawn": ".",
+    "phone in text": ".",
+    "phone in input": ".",
+    "text under icon": ".",
+    "wrong arrow": ".",
+    "range forced LTR": "x (9:00 - 17:00)",
+    "time/date drawn out of order": ".",
+    "Arabic phrase wrapped LTR": "-",
+    "punctuation inside LTR wrapper": ".",
+    "Arabic in LTR element": "x (ph:ابحث بالاسم أو ا)",
+    "letter-spacing on Arabic": ".",
+    "italic on Arabic": ".",
+    "english in UI": ".",
+    "sideways scroll (mobile)": ".",
+    "Arabic left-aligned": ".",
+    "language switch works": "-"
+   }
+  },
+  "t7-sonnet-b1": {
+   "task": "t7",
+   "model": "sonnet",
+   "condition": "baseline",
+   "cells": {
+    "page renders": ".",
+    "root rtl": ".",
+    "arabic font drawn": ".",
+    "phone in text": ".",
+    "phone in input": "x",
+    "text under icon": ".",
+    "wrong arrow": ".",
+    "range forced LTR": "x (9:00 - 17:00)",
+    "time/date drawn out of order": "-",
+    "Arabic phrase wrapped LTR": ".",
+    "punctuation inside LTR wrapper": ".",
+    "Arabic in LTR element": ".",
+    "letter-spacing on Arabic": ".",
+    "italic on Arabic": ".",
+    "english in UI": ".",
+    "sideways scroll (mobile)": ".",
+    "Arabic left-aligned": ".",
+    "language switch works": "-"
+   }
+  },
+  "t7-sonnet-b2": {
+   "task": "t7",
+   "model": "sonnet",
+   "condition": "baseline",
+   "cells": {
+    "page renders": ".",
+    "root rtl": ".",
+    "arabic font drawn": "x (segoe ui semibold)",
+    "phone in text": ".",
+    "phone in input": "-",
+    "text under icon": ".",
+    "wrong arrow": ".",
+    "range forced LTR": "-",
+    "time/date drawn out of order": ".",
+    "Arabic phrase wrapped LTR": ".",
+    "punctuation inside LTR wrapper": ".",
+    "Arabic in LTR element": "x (3 el)",
+    "letter-spacing on Arabic": ".",
+    "italic on Arabic": ".",
+    "english in UI": ".",
+    "sideways scroll (mobile)": ".",
+    "Arabic left-aligned": ".",
+    "language switch works": "-"
+   }
+  },
+  "t7-sonnet-v5a": {
+   "task": "t7",
+   "model": "sonnet",
+   "condition": "skill",
+   "cells": {
+    "page renders": ".",
+    "root rtl": ".",
+    "arabic font drawn": ".",
+    "phone in text": ".",
+    "phone in input": "-",
+    "text under icon": ".",
+    "wrong arrow": ".",
+    "range forced LTR": "-",
+    "time/date drawn out of order": ".",
+    "Arabic phrase wrapped LTR": "-",
+    "punctuation inside LTR wrapper": ".",
+    "Arabic in LTR element": ".",
+    "letter-spacing on Arabic": ".",
+    "italic on Arabic": ".",
+    "english in UI": ".",
+    "sideways scroll (mobile)": ".",
+    "Arabic left-aligned": ".",
+    "language switch works": "-"
+   }
+  },
+  "t7-sonnet-v5b": {
+   "task": "t7",
+   "model": "sonnet",
+   "condition": "skill",
+   "cells": {
+    "page renders": ".",
+    "root rtl": ".",
+    "arabic font drawn": ".",
+    "phone in text": ".",
+    "phone in input": "-",
+    "text under icon": ".",
+    "wrong arrow": ".",
+    "range forced LTR": ".",
+    "time/date drawn out of order": ".",
+    "Arabic phrase wrapped LTR": "-",
+    "punctuation inside LTR wrapper": ".",
+    "Arabic in LTR element": "x (ph:ابحث برقم الطلب )",
+    "letter-spacing on Arabic": ".",
+    "italic on Arabic": ".",
+    "english in UI": ".",
+    "sideways scroll (mobile)": ".",
+    "Arabic left-aligned": ".",
+    "language switch works": "-"
+   }
+  }
+ },
+ "checks": [
+  "page renders",
+  "root rtl",
+  "arabic font drawn",
+  "phone in text",
+  "phone in input",
+  "text under icon",
+  "wrong arrow",
+  "range forced LTR",
+  "time/date drawn out of order",
+  "Arabic phrase wrapped LTR",
+  "punctuation inside LTR wrapper",
+  "Arabic in LTR element",
+  "letter-spacing on Arabic",
+  "italic on Arabic",
+  "english in UI",
+  "sideways scroll (mobile)",
+  "Arabic left-aligned",
+  "language switch works"
+ ],
+ "by_condition": {
+  "baseline": {
+   "page renders": {
+    "failed": 1,
+    "applied": 24
+   },
+   "root rtl": {
+    "failed": 3,
+    "applied": 24
+   },
+   "arabic font drawn": {
+    "failed": 5,
+    "applied": 24
+   },
+   "phone in text": {
+    "failed": 2,
+    "applied": 11
+   },
+   "phone in input": {
+    "failed": 1,
+    "applied": 3
+   },
+   "text under icon": {
+    "failed": 2,
+    "applied": 8
+   },
+   "wrong arrow": {
+    "failed": 1,
+    "applied": 15
+   },
+   "range forced LTR": {
+    "failed": 2,
+    "applied": 3
+   },
+   "time/date drawn out of order": {
+    "failed": 0,
+    "applied": 2
+   },
+   "Arabic phrase wrapped LTR": {
+    "failed": 0,
+    "applied": 4
+   },
+   "punctuation inside LTR wrapper": {
+    "failed": 0,
+    "applied": 24
+   },
+   "Arabic in LTR element": {
+    "failed": 9,
+    "applied": 24
+   },
+   "letter-spacing on Arabic": {
+    "failed": 0,
+    "applied": 24
+   },
+   "italic on Arabic": {
+    "failed": 1,
+    "applied": 24
+   },
+   "english in UI": {
+    "failed": 1,
+    "applied": 24
+   },
+   "sideways scroll (mobile)": {
+    "failed": 0,
+    "applied": 24
+   },
+   "Arabic left-aligned": {
+    "failed": 0,
+    "applied": 24
+   },
+   "language switch works": {
+    "failed": 1,
+    "applied": 4
+   }
+  },
+  "skill": {
+   "page renders": {
+    "failed": 0,
+    "applied": 24
+   },
+   "root rtl": {
+    "failed": 0,
+    "applied": 24
+   },
+   "arabic font drawn": {
+    "failed": 1,
+    "applied": 24
+   },
+   "phone in text": {
+    "failed": 0,
+    "applied": 12
+   },
+   "phone in input": {
+    "failed": 0,
+    "applied": 5
+   },
+   "text under icon": {
+    "failed": 1,
+    "applied": 8
+   },
+   "wrong arrow": {
+    "failed": 0,
+    "applied": 20
+   },
+   "range forced LTR": {
+    "failed": 2,
+    "applied": 3
+   },
+   "time/date drawn out of order": {
+    "failed": 0,
+    "applied": 4
+   },
+   "Arabic phrase wrapped LTR": {
+    "failed": 0,
+    "applied": 1
+   },
+   "punctuation inside LTR wrapper": {
+    "failed": 0,
+    "applied": 24
+   },
+   "Arabic in LTR element": {
+    "failed": 3,
+    "applied": 24
+   },
+   "letter-spacing on Arabic": {
+    "failed": 0,
+    "applied": 24
+   },
+   "italic on Arabic": {
+    "failed": 0,
+    "applied": 24
+   },
+   "english in UI": {
+    "failed": 0,
+    "applied": 24
+   },
+   "sideways scroll (mobile)": {
+    "failed": 0,
+    "applied": 24
+   },
+   "Arabic left-aligned": {
+    "failed": 0,
+    "applied": 24
+   },
+   "language switch works": {
+    "failed": 0,
+    "applied": 4
+   }
+  }
+ },
+ "by_model": {
+  "haiku/baseline": {
+   "page renders": {
+    "failed": 0,
+    "applied": 12
+   },
+   "root rtl": {
+    "failed": 3,
+    "applied": 12
+   },
+   "arabic font drawn": {
+    "failed": 3,
+    "applied": 12
+   },
+   "phone in text": {
+    "failed": 2,
+    "applied": 6
+   },
+   "phone in input": {
+    "failed": 0,
+    "applied": 2
+   },
+   "text under icon": {
+    "failed": 1,
+    "applied": 4
+   },
+   "wrong arrow": {
+    "failed": 1,
+    "applied": 8
+   },
+   "range forced LTR": {
+    "failed": 1,
+    "applied": 2
+   },
+   "time/date drawn out of order": {
+    "failed": 0,
+    "applied": 1
+   },
+   "Arabic phrase wrapped LTR": {
+    "failed": 0,
+    "applied": 1
+   },
+   "punctuation inside LTR wrapper": {
+    "failed": 0,
+    "applied": 12
+   },
+   "Arabic in LTR element": {
+    "failed": 6,
+    "applied": 12
+   },
+   "letter-spacing on Arabic": {
+    "failed": 0,
+    "applied": 12
+   },
+   "italic on Arabic": {
+    "failed": 1,
+    "applied": 12
+   },
+   "english in UI": {
+    "failed": 1,
+    "applied": 12
+   },
+   "sideways scroll (mobile)": {
+    "failed": 0,
+    "applied": 12
+   },
+   "Arabic left-aligned": {
+    "failed": 0,
+    "applied": 12
+   },
+   "language switch works": {
+    "failed": 0,
+    "applied": 2
+   }
+  },
+  "haiku/skill": {
+   "page renders": {
+    "failed": 0,
+    "applied": 12
+   },
+   "root rtl": {
+    "failed": 0,
+    "applied": 12
+   },
+   "arabic font drawn": {
+    "failed": 1,
+    "applied": 12
+   },
+   "phone in text": {
+    "failed": 0,
+    "applied": 6
+   },
+   "phone in input": {
+    "failed": 0,
+    "applied": 3
+   },
+   "text under icon": {
+    "failed": 1,
+    "applied": 4
+   },
+   "wrong arrow": {
+    "failed": 0,
+    "applied": 10
+   },
+   "range forced LTR": {
+    "failed": 2,
+    "applied": 2
+   },
+   "time/date drawn out of order": {
+    "failed": 0,
+    "applied": 2
+   },
+   "Arabic phrase wrapped LTR": {
+    "failed": 0,
+    "applied": 0
+   },
+   "punctuation inside LTR wrapper": {
+    "failed": 0,
+    "applied": 12
+   },
+   "Arabic in LTR element": {
+    "failed": 2,
+    "applied": 12
+   },
+   "letter-spacing on Arabic": {
+    "failed": 0,
+    "applied": 12
+   },
+   "italic on Arabic": {
+    "failed": 0,
+    "applied": 12
+   },
+   "english in UI": {
+    "failed": 0,
+    "applied": 12
+   },
+   "sideways scroll (mobile)": {
+    "failed": 0,
+    "applied": 12
+   },
+   "Arabic left-aligned": {
+    "failed": 0,
+    "applied": 12
+   },
+   "language switch works": {
+    "failed": 0,
+    "applied": 2
+   }
+  },
+  "sonnet/baseline": {
+   "page renders": {
+    "failed": 1,
+    "applied": 12
+   },
+   "root rtl": {
+    "failed": 0,
+    "applied": 12
+   },
+   "arabic font drawn": {
+    "failed": 2,
+    "applied": 12
+   },
+   "phone in text": {
+    "failed": 0,
+    "applied": 5
+   },
+   "phone in input": {
+    "failed": 1,
+    "applied": 1
+   },
+   "text under icon": {
+    "failed": 1,
+    "applied": 4
+   },
+   "wrong arrow": {
+    "failed": 0,
+    "applied": 7
+   },
+   "range forced LTR": {
+    "failed": 1,
+    "applied": 1
+   },
+   "time/date drawn out of order": {
+    "failed": 0,
+    "applied": 1
+   },
+   "Arabic phrase wrapped LTR": {
+    "failed": 0,
+    "applied": 3
+   },
+   "punctuation inside LTR wrapper": {
+    "failed": 0,
+    "applied": 12
+   },
+   "Arabic in LTR element": {
+    "failed": 3,
+    "applied": 12
+   },
+   "letter-spacing on Arabic": {
+    "failed": 0,
+    "applied": 12
+   },
+   "italic on Arabic": {
+    "failed": 0,
+    "applied": 12
+   },
+   "english in UI": {
+    "failed": 0,
+    "applied": 12
+   },
+   "sideways scroll (mobile)": {
+    "failed": 0,
+    "applied": 12
+   },
+   "Arabic left-aligned": {
+    "failed": 0,
+    "applied": 12
+   },
+   "language switch works": {
+    "failed": 1,
+    "applied": 2
+   }
+  },
+  "sonnet/skill": {
+   "page renders": {
+    "failed": 0,
+    "applied": 12
+   },
+   "root rtl": {
+    "failed": 0,
+    "applied": 12
+   },
+   "arabic font drawn": {
+    "failed": 0,
+    "applied": 12
+   },
+   "phone in text": {
+    "failed": 0,
+    "applied": 6
+   },
+   "phone in input": {
+    "failed": 0,
+    "applied": 2
+   },
+   "text under icon": {
+    "failed": 0,
+    "applied": 4
+   },
+   "wrong arrow": {
+    "failed": 0,
+    "applied": 10
+   },
+   "range forced LTR": {
+    "failed": 0,
+    "applied": 1
+   },
+   "time/date drawn out of order": {
+    "failed": 0,
+    "applied": 2
+   },
+   "Arabic phrase wrapped LTR": {
+    "failed": 0,
+    "applied": 1
+   },
+   "punctuation inside LTR wrapper": {
+    "failed": 0,
+    "applied": 12
+   },
+   "Arabic in LTR element": {
+    "failed": 1,
+    "applied": 12
+   },
+   "letter-spacing on Arabic": {
+    "failed": 0,
+    "applied": 12
+   },
+   "italic on Arabic": {
+    "failed": 0,
+    "applied": 12
+   },
+   "english in UI": {
+    "failed": 0,
+    "applied": 12
+   },
+   "sideways scroll (mobile)": {
+    "failed": 0,
+    "applied": 12
+   },
+   "Arabic left-aligned": {
+    "failed": 0,
+    "applied": 12
+   },
+   "language switch works": {
+    "failed": 0,
+    "applied": 2
+   }
+  }
+ },
+ "by_task": {
+  "t4/baseline": {
+   "page renders": {
+    "failed": 0,
+    "applied": 4
+   },
+   "root rtl": {
+    "failed": 0,
+    "applied": 4
+   },
+   "arabic font drawn": {
+    "failed": 0,
+    "applied": 4
+   },
+   "phone in text": {
+    "failed": 1,
+    "applied": 4
+   },
+   "phone in input": {
+    "failed": 0,
+    "applied": 0
+   },
+   "text under icon": {
+    "failed": 0,
+    "applied": 0
+   },
+   "wrong arrow": {
+    "failed": 1,
+    "applied": 4
+   },
+   "range forced LTR": {
+    "failed": 0,
+    "applied": 0
+   },
+   "time/date drawn out of order": {
+    "failed": 0,
+    "applied": 0
+   },
+   "Arabic phrase wrapped LTR": {
+    "failed": 0,
+    "applied": 0
+   },
+   "punctuation inside LTR wrapper": {
+    "failed": 0,
+    "applied": 4
+   },
+   "Arabic in LTR element": {
+    "failed": 0,
+    "applied": 4
+   },
+   "letter-spacing on Arabic": {
+    "failed": 0,
+    "applied": 4
+   },
+   "italic on Arabic": {
+    "failed": 0,
+    "applied": 4
+   },
+   "english in UI": {
+    "failed": 0,
+    "applied": 4
+   },
+   "sideways scroll (mobile)": {
+    "failed": 0,
+    "applied": 4
+   },
+   "Arabic left-aligned": {
+    "failed": 0,
+    "applied": 4
+   },
+   "language switch works": {
+    "failed": 0,
+    "applied": 0
+   }
+  },
+  "t4/skill": {
+   "page renders": {
+    "failed": 0,
+    "applied": 4
+   },
+   "root rtl": {
+    "failed": 0,
+    "applied": 4
+   },
+   "arabic font drawn": {
+    "failed": 0,
+    "applied": 4
+   },
+   "phone in text": {
+    "failed": 0,
+    "applied": 4
+   },
+   "phone in input": {
+    "failed": 0,
+    "applied": 0
+   },
+   "text under icon": {
+    "failed": 0,
+    "applied": 0
+   },
+   "wrong arrow": {
+    "failed": 0,
+    "applied": 4
+   },
+   "range forced LTR": {
+    "failed": 0,
+    "applied": 0
+   },
+   "time/date drawn out of order": {
+    "failed": 0,
+    "applied": 0
+   },
+   "Arabic phrase wrapped LTR": {
+    "failed": 0,
+    "applied": 0
+   },
+   "punctuation inside LTR wrapper": {
+    "failed": 0,
+    "applied": 4
+   },
+   "Arabic in LTR element": {
+    "failed": 0,
+    "applied": 4
+   },
+   "letter-spacing on Arabic": {
+    "failed": 0,
+    "applied": 4
+   },
+   "italic on Arabic": {
+    "failed": 0,
+    "applied": 4
+   },
+   "english in UI": {
+    "failed": 0,
+    "applied": 4
+   },
+   "sideways scroll (mobile)": {
+    "failed": 0,
+    "applied": 4
+   },
+   "Arabic left-aligned": {
+    "failed": 0,
+    "applied": 4
+   },
+   "language switch works": {
+    "failed": 0,
+    "applied": 0
+   }
+  },
+  "t5/baseline": {
+   "page renders": {
+    "failed": 0,
+    "applied": 4
+   },
+   "root rtl": {
+    "failed": 2,
+    "applied": 4
+   },
+   "arabic font drawn": {
+    "failed": 2,
+    "applied": 4
+   },
+   "phone in text": {
+    "failed": 0,
+    "applied": 0
+   },
+   "phone in input": {
+    "failed": 0,
+    "applied": 2
+   },
+   "text under icon": {
+    "failed": 2,
+    "applied": 4
+   },
+   "wrong arrow": {
+    "failed": 0,
+    "applied": 0
+   },
+   "range forced LTR": {
+    "failed": 0,
+    "applied": 0
+   },
+   "time/date drawn out of order": {
+    "failed": 0,
+    "applied": 0
+   },
+   "Arabic phrase wrapped LTR": {
+    "failed": 0,
+    "applied": 0
+   },
+   "punctuation inside LTR wrapper": {
+    "failed": 0,
+    "applied": 4
+   },
+   "Arabic in LTR element": {
+    "failed": 2,
+    "applied": 4
+   },
+   "letter-spacing on Arabic": {
+    "failed": 0,
+    "applied": 4
+   },
+   "italic on Arabic": {
+    "failed": 0,
+    "applied": 4
+   },
+   "english in UI": {
+    "failed": 0,
+    "applied": 4
+   },
+   "sideways scroll (mobile)": {
+    "failed": 0,
+    "applied": 4
+   },
+   "Arabic left-aligned": {
+    "failed": 0,
+    "applied": 4
+   },
+   "language switch works": {
+    "failed": 0,
+    "applied": 0
+   }
+  },
+  "t5/skill": {
+   "page renders": {
+    "failed": 0,
+    "applied": 4
+   },
+   "root rtl": {
+    "failed": 0,
+    "applied": 4
+   },
+   "arabic font drawn": {
+    "failed": 0,
+    "applied": 4
+   },
+   "phone in text": {
+    "failed": 0,
+    "applied": 0
+   },
+   "phone in input": {
+    "failed": 0,
+    "applied": 4
+   },
+   "text under icon": {
+    "failed": 1,
+    "applied": 4
+   },
+   "wrong arrow": {
+    "failed": 0,
+    "applied": 4
+   },
+   "range forced LTR": {
+    "failed": 0,
+    "applied": 0
+   },
+   "time/date drawn out of order": {
+    "failed": 0,
+    "applied": 0
+   },
+   "Arabic phrase wrapped LTR": {
+    "failed": 0,
+    "applied": 0
+   },
+   "punctuation inside LTR wrapper": {
+    "failed": 0,
+    "applied": 4
+   },
+   "Arabic in LTR element": {
+    "failed": 0,
+    "applied": 4
+   },
+   "letter-spacing on Arabic": {
+    "failed": 0,
+    "applied": 4
+   },
+   "italic on Arabic": {
+    "failed": 0,
+    "applied": 4
+   },
+   "english in UI": {
+    "failed": 0,
+    "applied": 4
+   },
+   "sideways scroll (mobile)": {
+    "failed": 0,
+    "applied": 4
+   },
+   "Arabic left-aligned": {
+    "failed": 0,
+    "applied": 4
+   },
+   "language switch works": {
+    "failed": 0,
+    "applied": 0
+   }
+  },
+  "t7/baseline": {
+   "page renders": {
+    "failed": 0,
+    "applied": 4
+   },
+   "root rtl": {
+    "failed": 1,
+    "applied": 4
+   },
+   "arabic font drawn": {
+    "failed": 2,
+    "applied": 4
+   },
+   "phone in text": {
+    "failed": 0,
+    "applied": 4
+   },
+   "phone in input": {
+    "failed": 1,
+    "applied": 1
+   },
+   "text under icon": {
+    "failed": 0,
+    "applied": 4
+   },
+   "wrong arrow": {
+    "failed": 0,
+    "applied": 4
+   },
+   "range forced LTR": {
+    "failed": 2,
+    "applied": 3
+   },
+   "time/date drawn out of order": {
+    "failed": 0,
+    "applied": 2
+   },
+   "Arabic phrase wrapped LTR": {
+    "failed": 0,
+    "applied": 3
+   },
+   "punctuation inside LTR wrapper": {
+    "failed": 0,
+    "applied": 4
+   },
+   "Arabic in LTR element": {
+    "failed": 3,
+    "applied": 4
+   },
+   "letter-spacing on Arabic": {
+    "failed": 0,
+    "applied": 4
+   },
+   "italic on Arabic": {
+    "failed": 0,
+    "applied": 4
+   },
+   "english in UI": {
+    "failed": 0,
+    "applied": 4
+   },
+   "sideways scroll (mobile)": {
+    "failed": 0,
+    "applied": 4
+   },
+   "Arabic left-aligned": {
+    "failed": 0,
+    "applied": 4
+   },
+   "language switch works": {
+    "failed": 0,
+    "applied": 0
+   }
+  },
+  "t7/skill": {
+   "page renders": {
+    "failed": 0,
+    "applied": 4
+   },
+   "root rtl": {
+    "failed": 0,
+    "applied": 4
+   },
+   "arabic font drawn": {
+    "failed": 0,
+    "applied": 4
+   },
+   "phone in text": {
+    "failed": 0,
+    "applied": 4
+   },
+   "phone in input": {
+    "failed": 0,
+    "applied": 1
+   },
+   "text under icon": {
+    "failed": 0,
+    "applied": 4
+   },
+   "wrong arrow": {
+    "failed": 0,
+    "applied": 4
+   },
+   "range forced LTR": {
+    "failed": 2,
+    "applied": 3
+   },
+   "time/date drawn out of order": {
+    "failed": 0,
+    "applied": 4
+   },
+   "Arabic phrase wrapped LTR": {
+    "failed": 0,
+    "applied": 0
+   },
+   "punctuation inside LTR wrapper": {
+    "failed": 0,
+    "applied": 4
+   },
+   "Arabic in LTR element": {
+    "failed": 3,
+    "applied": 4
+   },
+   "letter-spacing on Arabic": {
+    "failed": 0,
+    "applied": 4
+   },
+   "italic on Arabic": {
+    "failed": 0,
+    "applied": 4
+   },
+   "english in UI": {
+    "failed": 0,
+    "applied": 4
+   },
+   "sideways scroll (mobile)": {
+    "failed": 0,
+    "applied": 4
+   },
+   "Arabic left-aligned": {
+    "failed": 0,
+    "applied": 4
+   },
+   "language switch works": {
+    "failed": 0,
+    "applied": 0
+   }
+  },
+  "t1/baseline": {
+   "page renders": {
+    "failed": 0,
+    "applied": 4
+   },
+   "root rtl": {
+    "failed": 0,
+    "applied": 4
+   },
+   "arabic font drawn": {
+    "failed": 0,
+    "applied": 4
+   },
+   "phone in text": {
+    "failed": 0,
+    "applied": 0
+   },
+   "phone in input": {
+    "failed": 0,
+    "applied": 0
+   },
+   "text under icon": {
+    "failed": 0,
+    "applied": 0
+   },
+   "wrong arrow": {
+    "failed": 0,
+    "applied": 0
+   },
+   "range forced LTR": {
+    "failed": 0,
+    "applied": 0
+   },
+   "time/date drawn out of order": {
+    "failed": 0,
+    "applied": 0
+   },
+   "Arabic phrase wrapped LTR": {
+    "failed": 0,
+    "applied": 0
+   },
+   "punctuation inside LTR wrapper": {
+    "failed": 0,
+    "applied": 4
+   },
+   "Arabic in LTR element": {
+    "failed": 3,
+    "applied": 4
+   },
+   "letter-spacing on Arabic": {
+    "failed": 0,
+    "applied": 4
+   },
+   "italic on Arabic": {
+    "failed": 1,
+    "applied": 4
+   },
+   "english in UI": {
+    "failed": 0,
+    "applied": 4
+   },
+   "sideways scroll (mobile)": {
+    "failed": 0,
+    "applied": 4
+   },
+   "Arabic left-aligned": {
+    "failed": 0,
+    "applied": 4
+   },
+   "language switch works": {
+    "failed": 0,
+    "applied": 0
+   }
+  },
+  "t1/skill": {
+   "page renders": {
+    "failed": 0,
+    "applied": 4
+   },
+   "root rtl": {
+    "failed": 0,
+    "applied": 4
+   },
+   "arabic font drawn": {
+    "failed": 0,
+    "applied": 4
+   },
+   "phone in text": {
+    "failed": 0,
+    "applied": 0
+   },
+   "phone in input": {
+    "failed": 0,
+    "applied": 0
+   },
+   "text under icon": {
+    "failed": 0,
+    "applied": 0
+   },
+   "wrong arrow": {
+    "failed": 0,
+    "applied": 0
+   },
+   "range forced LTR": {
+    "failed": 0,
+    "applied": 0
+   },
+   "time/date drawn out of order": {
+    "failed": 0,
+    "applied": 0
+   },
+   "Arabic phrase wrapped LTR": {
+    "failed": 0,
+    "applied": 0
+   },
+   "punctuation inside LTR wrapper": {
+    "failed": 0,
+    "applied": 4
+   },
+   "Arabic in LTR element": {
+    "failed": 0,
+    "applied": 4
+   },
+   "letter-spacing on Arabic": {
+    "failed": 0,
+    "applied": 4
+   },
+   "italic on Arabic": {
+    "failed": 0,
+    "applied": 4
+   },
+   "english in UI": {
+    "failed": 0,
+    "applied": 4
+   },
+   "sideways scroll (mobile)": {
+    "failed": 0,
+    "applied": 4
+   },
+   "Arabic left-aligned": {
+    "failed": 0,
+    "applied": 4
+   },
+   "language switch works": {
+    "failed": 0,
+    "applied": 0
+   }
+  },
+  "t3/baseline": {
+   "page renders": {
+    "failed": 0,
+    "applied": 4
+   },
+   "root rtl": {
+    "failed": 0,
+    "applied": 4
+   },
+   "arabic font drawn": {
+    "failed": 0,
+    "applied": 4
+   },
+   "phone in text": {
+    "failed": 0,
+    "applied": 0
+   },
+   "phone in input": {
+    "failed": 0,
+    "applied": 0
+   },
+   "text under icon": {
+    "failed": 0,
+    "applied": 0
+   },
+   "wrong arrow": {
+    "failed": 0,
+    "applied": 4
+   },
+   "range forced LTR": {
+    "failed": 0,
+    "applied": 0
+   },
+   "time/date drawn out of order": {
+    "failed": 0,
+    "applied": 0
+   },
+   "Arabic phrase wrapped LTR": {
+    "failed": 0,
+    "applied": 0
+   },
+   "punctuation inside LTR wrapper": {
+    "failed": 0,
+    "applied": 4
+   },
+   "Arabic in LTR element": {
+    "failed": 0,
+    "applied": 4
+   },
+   "letter-spacing on Arabic": {
+    "failed": 0,
+    "applied": 4
+   },
+   "italic on Arabic": {
+    "failed": 0,
+    "applied": 4
+   },
+   "english in UI": {
+    "failed": 0,
+    "applied": 4
+   },
+   "sideways scroll (mobile)": {
+    "failed": 0,
+    "applied": 4
+   },
+   "Arabic left-aligned": {
+    "failed": 0,
+    "applied": 4
+   },
+   "language switch works": {
+    "failed": 0,
+    "applied": 0
+   }
+  },
+  "t3/skill": {
+   "page renders": {
+    "failed": 0,
+    "applied": 4
+   },
+   "root rtl": {
+    "failed": 0,
+    "applied": 4
+   },
+   "arabic font drawn": {
+    "failed": 0,
+    "applied": 4
+   },
+   "phone in text": {
+    "failed": 0,
+    "applied": 0
+   },
+   "phone in input": {
+    "failed": 0,
+    "applied": 0
+   },
+   "text under icon": {
+    "failed": 0,
+    "applied": 0
+   },
+   "wrong arrow": {
+    "failed": 0,
+    "applied": 4
+   },
+   "range forced LTR": {
+    "failed": 0,
+    "applied": 0
+   },
+   "time/date drawn out of order": {
+    "failed": 0,
+    "applied": 0
+   },
+   "Arabic phrase wrapped LTR": {
+    "failed": 0,
+    "applied": 0
+   },
+   "punctuation inside LTR wrapper": {
+    "failed": 0,
+    "applied": 4
+   },
+   "Arabic in LTR element": {
+    "failed": 0,
+    "applied": 4
+   },
+   "letter-spacing on Arabic": {
+    "failed": 0,
+    "applied": 4
+   },
+   "italic on Arabic": {
+    "failed": 0,
+    "applied": 4
+   },
+   "english in UI": {
+    "failed": 0,
+    "applied": 4
+   },
+   "sideways scroll (mobile)": {
+    "failed": 0,
+    "applied": 4
+   },
+   "Arabic left-aligned": {
+    "failed": 0,
+    "applied": 4
+   },
+   "language switch works": {
+    "failed": 0,
+    "applied": 0
+   }
+  },
+  "t6/baseline": {
+   "page renders": {
+    "failed": 1,
+    "applied": 4
+   },
+   "root rtl": {
+    "failed": 0,
+    "applied": 4
+   },
+   "arabic font drawn": {
+    "failed": 1,
+    "applied": 4
+   },
+   "phone in text": {
+    "failed": 1,
+    "applied": 3
+   },
+   "phone in input": {
+    "failed": 0,
+    "applied": 0
+   },
+   "text under icon": {
+    "failed": 0,
+    "applied": 0
+   },
+   "wrong arrow": {
+    "failed": 0,
+    "applied": 3
+   },
+   "range forced LTR": {
+    "failed": 0,
+    "applied": 0
+   },
+   "time/date drawn out of order": {
+    "failed": 0,
+    "applied": 0
+   },
+   "Arabic phrase wrapped LTR": {
+    "failed": 0,
+    "applied": 1
+   },
+   "punctuation inside LTR wrapper": {
+    "failed": 0,
+    "applied": 4
+   },
+   "Arabic in LTR element": {
+    "failed": 1,
+    "applied": 4
+   },
+   "letter-spacing on Arabic": {
+    "failed": 0,
+    "applied": 4
+   },
+   "italic on Arabic": {
+    "failed": 0,
+    "applied": 4
+   },
+   "english in UI": {
+    "failed": 1,
+    "applied": 4
+   },
+   "sideways scroll (mobile)": {
+    "failed": 0,
+    "applied": 4
+   },
+   "Arabic left-aligned": {
+    "failed": 0,
+    "applied": 4
+   },
+   "language switch works": {
+    "failed": 1,
+    "applied": 4
+   }
+  },
+  "t6/skill": {
+   "page renders": {
+    "failed": 0,
+    "applied": 4
+   },
+   "root rtl": {
+    "failed": 0,
+    "applied": 4
+   },
+   "arabic font drawn": {
+    "failed": 1,
+    "applied": 4
+   },
+   "phone in text": {
+    "failed": 0,
+    "applied": 4
+   },
+   "phone in input": {
+    "failed": 0,
+    "applied": 0
+   },
+   "text under icon": {
+    "failed": 0,
+    "applied": 0
+   },
+   "wrong arrow": {
+    "failed": 0,
+    "applied": 4
+   },
+   "range forced LTR": {
+    "failed": 0,
+    "applied": 0
+   },
+   "time/date drawn out of order": {
+    "failed": 0,
+    "applied": 0
+   },
+   "Arabic phrase wrapped LTR": {
+    "failed": 0,
+    "applied": 1
+   },
+   "punctuation inside LTR wrapper": {
+    "failed": 0,
+    "applied": 4
+   },
+   "Arabic in LTR element": {
+    "failed": 0,
+    "applied": 4
+   },
+   "letter-spacing on Arabic": {
+    "failed": 0,
+    "applied": 4
+   },
+   "italic on Arabic": {
+    "failed": 0,
+    "applied": 4
+   },
+   "english in UI": {
+    "failed": 0,
+    "applied": 4
+   },
+   "sideways scroll (mobile)": {
+    "failed": 0,
+    "applied": 4
+   },
+   "Arabic left-aligned": {
+    "failed": 0,
+    "applied": 4
+   },
+   "language switch works": {
+    "failed": 0,
+    "applied": 4
+   }
+  }
+ },
+ "defects_per_run": {
+  "t1-haiku-b1": 1,
+  "t1-haiku-b2": 1,
+  "t1-haiku-v5a": 0,
+  "t1-haiku-v5b": 0,
+  "t1-sonnet-b1": 1,
+  "t1-sonnet-b2": 1,
+  "t1-sonnet-v5a": 0,
+  "t1-sonnet-v5b": 0,
+  "t3-haiku-b1": 0,
+  "t3-haiku-b2": 0,
+  "t3-haiku-v5a": 0,
+  "t3-haiku-v5b": 0,
+  "t3-sonnet-b1": 0,
+  "t3-sonnet-b2": 0,
+  "t3-sonnet-v5a": 0,
+  "t3-sonnet-v5b": 0,
+  "t4-haiku": 1,
+  "t4-haiku-b2": 1,
+  "t4-haiku-v5a": 0,
+  "t4-haiku-v5b": 0,
+  "t4-sonnet": 0,
+  "t4-sonnet-b2": 0,
+  "t4-sonnet-v5a": 0,
+  "t4-sonnet-v5b": 0,
+  "t5-haiku": 4,
+  "t5-haiku-b2": 3,
+  "t5-haiku-v5a": 0,
+  "t5-haiku-v5b": 1,
+  "t5-sonnet": 1,
+  "t5-sonnet-b2": 0,
+  "t5-sonnet-v5a": 0,
+  "t5-sonnet-v5b": 0,
+  "t6-haiku-b1": 2,
+  "t6-haiku-b2": 1,
+  "t6-haiku-v5a": 1,
+  "t6-haiku-v5b": 0,
+  "t6-sonnet-b1": 0,
+  "t6-sonnet-b2": 3,
+  "t6-sonnet-v5a": 0,
+  "t6-sonnet-v5b": 0,
+  "t7-haiku-b1": 1,
+  "t7-haiku-b2": 4,
+  "t7-haiku-v5a": 2,
+  "t7-haiku-v5b": 2,
+  "t7-sonnet-b1": 2,
+  "t7-sonnet-b2": 2,
+  "t7-sonnet-v5a": 0,
+  "t7-sonnet-v5b": 1
+ }
+}

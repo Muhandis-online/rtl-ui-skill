@@ -1,0 +1,9 @@
+{
+  "name": "rtl-ui-harness",
+  "private": true,
+  "description": "Renders Arabic interfaces in Chromium, Firefox and WebKit and measures RTL defects.",
+  "type": "module",
+  "devDependencies": {
+    "playwright": "1.56.1"
+  }
+}

@@ -1,0 +1,400 @@
+<title>rtl-ui Skill Evaluation</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Condensed:wght@500;600;700&family=IBM+Plex+Sans:ital,wght@0,400;0,500;0,600;1,400&family=IBM+Plex+Mono:wght@400;500&family=IBM+Plex+Sans+Arabic:wght@400;600&display=swap">
+<style>
+/* Layout: one reading column for prose, wider bands for tables and screenshot pairs. Engineering-report register. */
+:root {
+  --bg: #f6f7f5;
+  --surface: #ffffff;
+  --ink: #17201c;
+  --muted: #5b6862;
+  --rule: #d9dfdb;
+  --accent: #0f6b4f;       /* skill / pass */
+  --accent-soft: #e2f1eb;
+  --warn: #b5432c;         /* baseline failure */
+  --warn-soft: #f7e6e1;
+  --bar-base: #c96a55;
+  --bar-skill: #2f8c6c;
+  --display: "IBM Plex Sans Condensed", "Arial Narrow", sans-serif;
+  --body: "IBM Plex Sans", system-ui, sans-serif;
+  --mono: "IBM Plex Mono", ui-monospace, monospace;
+  --arabic: "IBM Plex Sans Arabic", "Segoe UI", Tahoma, sans-serif;
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --bg: #121715; --surface: #1a211e; --ink: #e6ece9; --muted: #9aa8a1; --rule: #2f3934;
+    --accent: #5cc7a0; --accent-soft: #173a2e; --warn: #ef8a72; --warn-soft: #3d221c;
+    --bar-base: #d9826d; --bar-skill: #4fb88f; color-scheme: dark;
+  }
+}
+:root[data-theme="dark"] {
+  --bg: #121715; --surface: #1a211e; --ink: #e6ece9; --muted: #9aa8a1; --rule: #2f3934;
+  --accent: #5cc7a0; --accent-soft: #173a2e; --warn: #ef8a72; --warn-soft: #3d221c;
+  --bar-base: #d9826d; --bar-skill: #4fb88f; color-scheme: dark;
+}
+* { box-sizing: border-box; }
+body {
+  background: var(--bg); color: var(--ink); font: 16px/1.6 var(--body);
+  padding-left: max(16px, env(safe-area-inset-left, 0px));
+  padding-right: max(16px, env(safe-area-inset-right, 0px));
+  padding-block: 40px 80px;
+}
+.wrap { max-width: 1040px; margin: 0 auto; display: grid; gap: 56px; }
+.prose { max-width: 68ch; }
+h1, h2, h3 { font-family: var(--display); line-height: 1.15; text-wrap: balance; margin: 0; }
+h1 { font-size: clamp(2rem, 5vw, 3rem); font-weight: 700; letter-spacing: -0.01em; }
+h2 { font-size: 1.65rem; font-weight: 600; }
+h3 { font-size: 1.15rem; font-weight: 600; }
+p { margin: 0; }
+section { display: grid; gap: 18px; }
+.eyebrow { font: 500 0.78rem/1 var(--mono); letter-spacing: 0.08em; text-transform: uppercase; color: var(--muted); }
+.lede { font-size: 1.15rem; color: var(--ink); max-width: 64ch; }
+.muted { color: var(--muted); }
+.ar { font-family: var(--arabic); }
+code, .mono { font-family: var(--mono); font-size: 0.88em; }
+code { background: var(--accent-soft); padding: 0.05em 0.35em; border-radius: 4px; }
+
+/* headline figures */
+.figures { display: grid; grid-template-columns: repeat(auto-fit, minmax(210px, 1fr)); gap: 16px; }
+.fig { background: var(--surface); border: 1px solid var(--rule); border-radius: 10px; padding: 18px 20px; display: grid; gap: 6px; }
+.fig .num { font: 600 2.1rem/1 var(--display); font-variant-numeric: tabular-nums; display: flex; align-items: baseline; gap: 10px; flex-wrap: wrap; }
+.fig .from { color: var(--warn); }
+.fig .to { color: var(--accent); }
+.fig .arrow { color: var(--muted); font-size: 1.2rem; }
+.fig .lbl { color: var(--muted); font-size: 0.92rem; }
+
+/* tables */
+.tbl-wrap { overflow-x: auto; background: var(--surface); border: 1px solid var(--rule); border-radius: 10px; }
+table { border-collapse: collapse; width: 100%; font-size: 0.93rem; font-variant-numeric: tabular-nums; }
+th, td { text-align: left; padding: 9px 14px; border-bottom: 1px solid var(--rule); vertical-align: top; }
+th { font: 600 0.78rem/1.3 var(--mono); letter-spacing: 0.04em; text-transform: uppercase; color: var(--muted); background: var(--bg); }
+tr:last-child td { border-bottom: 0; }
+td.n { white-space: nowrap; font-family: var(--mono); }
+.fail { color: var(--warn); font-weight: 600; }
+.pass { color: var(--accent); font-weight: 600; }
+.zero { color: var(--muted); }
+
+/* paired bars */
+.bars { display: grid; gap: 14px; }
+.bar-row { display: grid; grid-template-columns: minmax(120px, 210px) 1fr; gap: 14px; align-items: center; }
+.bar-row .name { font-size: 0.95rem; }
+.bar-pair { display: grid; gap: 4px; }
+.bar { display: flex; align-items: center; gap: 8px; font: 500 0.82rem/1 var(--mono); color: var(--muted); }
+.bar i { display: block; height: 12px; border-radius: 3px; min-width: 2px; }
+.bar.b i { background: var(--bar-base); }
+.bar.s i { background: var(--bar-skill); }
+.legend { display: flex; gap: 18px; flex-wrap: wrap; font: 500 0.82rem/1 var(--mono); color: var(--muted); }
+.legend span::before { content: ""; display: inline-block; width: 12px; height: 12px; border-radius: 3px; margin-right: 6px; vertical-align: -2px; }
+.legend .lb::before { background: var(--bar-base); }
+.legend .ls::before { background: var(--bar-skill); }
+
+/* screenshot pairs */
+.pairs { display: grid; gap: 28px; }
+.pair { display: grid; gap: 10px; }
+.pair-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; }
+.shot { margin: 0; background: var(--surface); border: 1px solid var(--rule); border-radius: 10px; overflow: hidden; display: grid; grid-template-rows: auto 1fr; }
+.shot figcaption { font: 500 0.78rem/1.3 var(--mono); padding: 8px 12px; border-bottom: 1px solid var(--rule); display: flex; justify-content: space-between; gap: 8px; flex-wrap: wrap; }
+.shot.base figcaption { background: var(--warn-soft); color: var(--warn); }
+.shot.skill figcaption { background: var(--accent-soft); color: var(--accent); }
+.shot .img { background: #fff; display: grid; place-items: center; padding: 10px; }
+.shot img { display: block; max-width: 100%; height: auto; }
+.pair .why { font-size: 0.95rem; color: var(--muted); max-width: 72ch; }
+.tag { display: inline-block; font: 600 0.72rem/1.4 var(--mono); padding: 1px 7px; border-radius: 999px; background: var(--warn-soft); color: var(--warn); letter-spacing: 0.02em; }
+.tag.ok { background: var(--accent-soft); color: var(--accent); }
+
+.lab { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 16px; }
+.lab figure { margin: 0; background: var(--surface); border: 1px solid var(--rule); border-radius: 10px; overflow: hidden; }
+.lab figure .img { background: #fff; padding: 8px; }
+.lab figure img { display: block; max-width: 100%; height: auto; }
+.lab figcaption { padding: 10px 12px; font-size: 0.88rem; color: var(--muted); }
+
+ul.clean { margin: 0; padding-left: 1.2em; display: grid; gap: 8px; }
+.callout { background: var(--surface); border: 1px solid var(--rule); border-left: 4px solid var(--warn); border-radius: 8px; padding: 14px 18px; display: grid; gap: 8px; }
+.callout.good { border-left-color: var(--accent); }
+footer { color: var(--muted); font-size: 0.88rem; border-top: 1px solid var(--rule); padding-top: 18px; }
+
+@media (max-width: 640px) {
+  .pair-grid { grid-template-columns: 1fr; }
+  .bar-row { grid-template-columns: 1fr; gap: 6px; }
+  body { padding-block: 24px 60px; }
+}
+@media (prefers-reduced-motion: no-preference) { a { transition: color .15s; } }
+a { color: var(--accent); }
+a:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+</style>
+
+<div class="wrap">
+
+<header style="display:grid;gap:14px">
+  <div class="eyebrow">Evaluation · 2026-10-31 · skill v0.5</div>
+  <h1>Does the rtl-ui skill make Arabic interfaces render correctly?</h1>
+  <p class="lede">Yes, for the models that need it. Across 48 real build and conversion jobs, Haiku and Sonnet shipped
+    <strong>29 measured RTL defects without the skill and 7 with it</strong>. Five of those seven came from two of the
+    skill's own rules; both are corrected in v0.7.</p>
+</header>
+
+<section aria-label="Headline figures">
+  <div class="figures">
+    <div class="fig"><div class="num"><span class="from">29</span><span class="arrow">→</span><span class="to">7</span></div><div class="lbl">RTL defects across 24 runs each</div></div>
+    <div class="fig"><div class="num"><span class="from">8</span><span class="arrow">→</span><span class="to">19</span></div><div class="lbl">runs with no defect, out of 24</div></div>
+    <div class="fig"><div class="num"><span class="from">19</span><span class="arrow">→</span><span class="to">6</span></div><div class="lbl">Haiku defects</div></div>
+    <div class="fig"><div class="num"><span class="from">10</span><span class="arrow">→</span><span class="to">1</span></div><div class="lbl">Sonnet defects</div></div>
+  </div>
+</section>
+
+<section class="prose">
+  <div class="eyebrow">What was tested</div>
+  <h2>Six client jobs, two models, with and without the skill</h2>
+  <p>Each job was given to a fresh agent as a client would write it, in Saudi Arabic. The agent worked in its own
+    copy of the project and could build it but not start a dev server. The only difference between conditions was one
+    line asking the agent to read the skill first. Opus and Fable were left out: earlier rounds showed they pass these
+    checks without the skill.</p>
+</section>
+
+<section>
+  <div class="tbl-wrap">
+    <table>
+      <thead><tr><th>Task</th><th>Job</th><th>Starting point</th><th>Runs</th></tr></thead>
+      <tbody>
+        <tr><td class="n">t4</td><td>Arabic landing page: phone, email, prices, slider, FAQ</td><td>empty React + Tailwind + shadcn starter</td><td class="n">8</td></tr>
+        <tr><td class="n">t5</td><td>Arabic sign-up form: phone, email, password with eye toggle, city search, price</td><td>same starter</td><td class="n">8</td></tr>
+        <tr><td class="n">t7</td><td>Arabic orders dashboard: table, order numbers, phones, dates, times, tabs, pagination, search, toast</td><td>same starter</td><td class="n">8</td></tr>
+        <tr><td class="n">t1</td><td>Convert a real English Lovable SaaS site to Arabic</td><td>drewsephski/Hyper.AI-SaaS-Boilerplate</td><td class="n">8</td></tr>
+        <tr><td class="n">t3</td><td>Fix a real Arabic Lovable site with known defects</td><td>AbdelqaderSafi12/book-culture-hub</td><td class="n">8</td></tr>
+        <tr><td class="n">t6</td><td>Add Arabic with a language switch, Arabic as default</td><td>yashgondalia/lingofun-academy-diya</td><td class="n">8</td></tr>
+      </tbody>
+    </table>
+  </div>
+  <p class="muted prose">Each task: Haiku × 2 and Sonnet × 2 per condition. Baseline runs from earlier rounds with the identical prompt and
+    project were reused; 30 runs were new. Every run was graded by the same script on the rendered page in Chromium at
+    1440 px and 390 px, after typing realistic values into every field (a spaced Saudi phone number, a long email, a
+    25-character password, a long Arabic name).</p>
+</section>
+
+<section>
+  <div class="eyebrow">Results by check</div>
+  <h2>Where the defects were</h2>
+  <p class="prose muted">Failures / runs where the check applied. A check applies only when the page has the thing it
+    checks: a phone number, a field with an icon, a directional arrow.</p>
+  <div class="tbl-wrap">
+    <table>
+      <thead><tr><th>What the user sees</th><th>Skill rule</th><th>No skill</th><th>With skill</th></tr></thead>
+      <tbody>
+        <tr><td>Arabic text laid out left-to-right inside the page (component or field forced LTR)</td><td class="n">1, 4</td><td class="n fail">9 / 24</td><td class="n fail">3 / 24</td></tr>
+        <tr><td>A range (opening hours) forced left-to-right, so its start sits on the left</td><td class="n">3</td><td class="n fail">2 / 3</td><td class="n fail">2 / 3</td></tr>
+        <tr><td>Arabic drawn in a font nobody chose (system fallback)</td><td class="n">2</td><td class="n fail">5 / 24</td><td class="n fail">1 / 24</td></tr>
+        <tr><td>Direction set on an inner wrapper, not the page root</td><td class="n">1</td><td class="n fail">3 / 24</td><td class="n pass">0 / 24</td></tr>
+        <tr><td>Phone number drawn reversed in text</td><td class="n">3</td><td class="n fail">2 / 11</td><td class="n pass">0 / 12</td></tr>
+        <tr><td>Typed text runs under an icon inside a field</td><td class="n">6</td><td class="n fail">2 / 8</td><td class="n fail">1 / 8</td></tr>
+        <tr><td>Phone number typed into a field shown reversed</td><td class="n">5</td><td class="n fail">1 / 3</td><td class="n pass">0 / 5</td></tr>
+        <tr><td>Arrow points backwards</td><td class="n">7</td><td class="n fail">1 / 15</td><td class="n pass">0 / 20</td></tr>
+        <tr><td>Italic on Arabic</td><td class="n">9</td><td class="n fail">1 / 24</td><td class="n pass">0 / 24</td></tr>
+        <tr><td>English left in the interface</td><td class="n">8</td><td class="n fail">1 / 24</td><td class="n pass">0 / 24</td></tr>
+        <tr><td>Page crashes on load (blank)</td><td class="n">–</td><td class="n fail">1 / 24</td><td class="n pass">0 / 24</td></tr>
+        <tr><td>Language switch does not change language and direction</td><td class="n">1</td><td class="n fail">1 / 4</td><td class="n pass">0 / 4</td></tr>
+        <tr><td>Letter-spacing on Arabic · punctuation inside an LTR value · Arabic phrase forced LTR · single time or date drawn out of order · left-aligned Arabic · sideways scroll on mobile</td><td class="n">3, 9</td><td class="n zero">0</td><td class="n zero">0</td></tr>
+      </tbody>
+    </table>
+  </div>
+</section>
+
+<section>
+  <div class="eyebrow">Results by task and model</div>
+  <h2>Every job improved except the one that was already clean</h2>
+  <div class="legend"><span class="lb">No skill</span><span class="ls">With skill</span></div>
+  <div class="bars" role="list">
+    <!-- bar width = defects / 19 (largest value) -->
+    <div class="bar-row" role="listitem"><div class="name">Haiku, all tasks</div><div class="bar-pair"><div class="bar b"><i style="width:100%"></i>19</div><div class="bar s"><i style="width:32%"></i>6</div></div></div>
+    <div class="bar-row" role="listitem"><div class="name">Sonnet, all tasks</div><div class="bar-pair"><div class="bar b"><i style="width:53%"></i>10</div><div class="bar s"><i style="width:5%"></i>1</div></div></div>
+    <div class="bar-row" role="listitem"><div class="name">t7 orders dashboard</div><div class="bar-pair"><div class="bar b"><i style="width:47%"></i>9</div><div class="bar s"><i style="width:26%"></i>5</div></div></div>
+    <div class="bar-row" role="listitem"><div class="name">t5 sign-up form</div><div class="bar-pair"><div class="bar b"><i style="width:42%"></i>8</div><div class="bar s"><i style="width:5%"></i>1</div></div></div>
+    <div class="bar-row" role="listitem"><div class="name">t6 add Arabic + switch</div><div class="bar-pair"><div class="bar b"><i style="width:32%"></i>6</div><div class="bar s"><i style="width:5%"></i>1</div></div></div>
+    <div class="bar-row" role="listitem"><div class="name">t1 convert real app</div><div class="bar-pair"><div class="bar b"><i style="width:21%"></i>4</div><div class="bar s"><i style="width:1%"></i>0</div></div></div>
+    <div class="bar-row" role="listitem"><div class="name">t4 landing page</div><div class="bar-pair"><div class="bar b"><i style="width:11%"></i>2</div><div class="bar s"><i style="width:1%"></i>0</div></div></div>
+    <div class="bar-row" role="listitem"><div class="name">t3 fix broken Arabic site</div><div class="bar-pair"><div class="bar b"><i style="width:1%"></i>0</div><div class="bar s"><i style="width:1%"></i>0</div></div></div>
+  </div>
+  <p class="prose muted">Fixing an existing broken Arabic site (t3) came out clean in all 8 runs with or without the skill: both
+    models found the missing Arabic font, the letter-spacing, the English slider labels and the reversed phone numbers on
+    their own. The skill adds nothing measurable to that job.</p>
+</section>
+
+<section>
+  <div class="eyebrow">Side by side</div>
+  <h2>The same job, the same model, without and with the skill</h2>
+  <p class="prose muted">Each pair is cropped from the graded build of two runs of the same task and model. Captions name the run.</p>
+
+  <div class="pairs">
+
+    <div class="pair">
+      <h3>Typed password runs under the show/hide button</h3>
+      <div class="pair-grid">
+        <figure class="shot base"><figcaption><span>No skill</span><span>t5 · Sonnet</span></figcaption><div class="img"><img src="screenshots/pw-base.png" alt="Password field: the eye icon sits on top of the first password dots"></div></figure>
+        <figure class="shot skill"><figcaption><span>With skill</span><span>t5 · Sonnet</span></figcaption><div class="img"><img src="screenshots/pw-skill.png" alt="Password field: the dots stop before the eye icon"></div></figure>
+      </div>
+      <p class="why">The field is correctly left-to-right, so its own "end" is the right side and its padding lands there,
+        while the button is placed by the right-to-left layout around it and lands on the left. Rule 6: reserve the space on
+        the side where the icon actually is.</p>
+    </div>
+
+    <div class="pair">
+      <h3>Navigation bar laid out backwards</h3>
+      <div class="pair-grid">
+        <figure class="shot base"><figcaption><span>No skill</span><span>t1 · Sonnet</span></figcaption><div class="img"><img src="screenshots/nav-base.png" alt="Navigation pill with الرئيسية (Home) at the far left"></div></figure>
+        <figure class="shot skill"><figcaption><span>With skill</span><span>t1 · Sonnet</span></figcaption><div class="img"><img src="screenshots/nav-skill.png" alt="Navigation pill with الرئيسية (Home) at the far right"></div></figure>
+      </div>
+      <p class="why">The nav is a component from a UI kit that keeps its own direction setting, left-to-right by default, so
+        <span class="ar">الرئيسية</span> (Home) ends up at the left end of an Arabic page and arrow keys run backwards.
+        Rule 1: set the kit's own direction too. The skill text names no framework; agents found the right setting from that
+        general wording.</p>
+    </div>
+
+    <div class="pair">
+      <h3>Phone number drawn reversed</h3>
+      <div class="pair-grid">
+        <figure class="shot base"><figcaption><span>No skill</span><span>t4 · Haiku</span></figcaption><div class="img"><img src="screenshots/phone-base.png" alt="Call button reading 4567 123 55 966+"></div></figure>
+        <figure class="shot skill"><figcaption><span>With skill</span><span>t4 · Haiku</span></figcaption><div class="img"><img src="screenshots/phone-skill.png" alt="Call button reading +966 55 123 4567"></div></figure>
+      </div>
+      <p class="why">In the Unicode bidi algorithm, digits in a right-to-left context lose their grouping across spaces, so
+        <code>+966 55 123 4567</code> is drawn <code>4567 123 55 966+</code>, even alone on a button. The same thing happened in
+        Chrome, Firefox and Safari's engine. Rule 3: isolate every phone number, email and code made only of Latin
+        characters and digits.</p>
+    </div>
+
+    <div class="pair">
+      <h3>Arabic placeholder inside a left-to-right field</h3>
+      <div class="pair-grid">
+        <figure class="shot base"><figcaption><span>No skill</span><span>t5 · Haiku</span></figcaption><div class="img"><img src="screenshots/ph-base.png" alt="Password field showing an Arabic placeholder laid out left-to-right, colliding with the eye icon"></div></figure>
+        <figure class="shot skill"><figcaption><span>With skill</span><span>t5 · Haiku</span></figcaption><div class="img"><img src="screenshots/ph-skill.png" alt="Password field with an example placeholder; the Arabic hint is below the field"></div></figure>
+      </div>
+      <p class="why">Arabic inside a left-to-right element is aligned to the wrong side and its final punctuation is drawn at
+        the start of the line. Rule 4: in left-to-right fields, use the example value as the placeholder and put the Arabic
+        hint in the label or helper text.</p>
+    </div>
+
+    <div class="pair">
+      <h3>Carousel "next" arrow pointing backwards</h3>
+      <div class="pair-grid">
+        <figure class="shot base"><figcaption><span>No skill</span><span>t4 · Haiku</span></figcaption><div class="img"><img src="screenshots/arrow-base.png" alt="Next button with a right-pointing chevron"></div></figure>
+        <figure class="shot skill"><figcaption><span>With skill</span><span>t4 · Haiku</span></figcaption><div class="img"><img src="screenshots/arrow-skill.png" alt="Next button with a left-pointing chevron"></div></figure>
+      </div>
+      <p class="why">In Arabic, "next" and "forward" point left. Rule 7 sets the direction the arrow must finally point and
+        warns against mirroring an icon that was already chosen for RTL.</p>
+    </div>
+
+    <div class="pair">
+      <h3>Arabic in a font nobody chose</h3>
+      <div class="pair-grid">
+        <figure class="shot base"><figcaption><span>No skill</span><span>t5 · Haiku</span></figcaption><div class="img"><img src="screenshots/font-base.png" alt="Heading drawn in the Windows fallback font Segoe UI"></div></figure>
+        <figure class="shot skill"><figcaption><span>With skill</span><span>t5 · Haiku</span></figcaption><div class="img"><img src="screenshots/font-skill.png" alt="Heading drawn in IBM Plex Sans Arabic"></div></figure>
+      </div>
+      <p class="why">Without the skill the page never loaded an Arabic font, so Chromium drew the heading in Segoe UI, the
+        Windows fallback; on a phone it would be a different font again. With the skill it is drawn in the font the page
+        loaded (Tajawal). Measured from the font Chromium actually used for the Arabic glyphs.</p>
+    </div>
+
+    <div class="pair">
+      <h3>A defect the skill introduced: opening hours forced left-to-right</h3>
+      <div class="pair-grid">
+        <figure class="shot base"><figcaption><span>No skill · correct</span><span>t7 · Haiku</span></figcaption><div class="img"><img src="screenshots/time-base.png" alt="Opening hours laid out right to left, 9:00 on the right"></div></figure>
+        <figure class="shot skill"><figcaption><span>With skill · wrong</span><span>t7 · Haiku</span></figcaption><div class="img"><img src="screenshots/time-skill.png" alt="Opening hours forced left to right, 9:00 on the left"></div></figure>
+      </div>
+      <p class="why">After <span class="ar">أوقات الدوام:</span> the range runs right to left with the sentence, so <code>9:00</code>
+        sits on the right and an Arabic reader reads "from 9 to 17". v0.5 rule 3 told agents to isolate ranges written in
+        digits, which puts <code>9:00</code> on the left and reads backwards. A native reader flagged this pair. v0.7 leaves
+        every range, of times, dates or numbers, in the sentence's flow, the same ruling as <span class="ar">من 15-25 يناير</span>.
+        Two of four Haiku skill runs on t7 did this; two baseline runs did it on their own.</p>
+    </div>
+
+    <div class="pair">
+      <h3>A defect the skill introduced: search placeholder pushed left</h3>
+      <div class="pair-grid">
+        <figure class="shot base"><figcaption><span>No skill</span><span>t7 · Haiku</span></figcaption><div class="img"><img src="screenshots/search-base.png" alt="Search field with the Arabic placeholder on the right next to the icon"></div></figure>
+        <figure class="shot skill"><figcaption><span>With skill</span><span>t7 · Haiku</span></figcaption><div class="img"><img src="screenshots/search-skill.png" alt="Search field with the Arabic placeholder on the left, away from the icon"></div></figure>
+      </div>
+      <p class="why">Rule 5 of v0.5 told agents to give a general field that may receive a phone number automatic direction. An
+        automatic-direction field is left-to-right while it is empty, so its Arabic placeholder is laid out left-to-right.
+        Three of four t7 skill runs did this. v0.7 adds the fix: keep the field right-to-left while it is empty. The fix is
+        verified in Chromium, Firefox and WebKit (below) but has not been re-run with agents.</p>
+    </div>
+
+  </div>
+</section>
+
+<section>
+  <div class="eyebrow">Where the skill fell short</div>
+  <h2>The seven defects that remained with the skill</h2>
+  <p class="prose muted">Five of the seven came from two of the skill's own rules. Both rules are corrected in v0.7; the
+    corrections are checked in the lab and against the native-reader rulings, but have not been re-run with agents.</p>
+  <div class="tbl-wrap">
+    <table>
+      <thead><tr><th>Run</th><th>Defect</th><th>Cause</th></tr></thead>
+      <tbody>
+        <tr><td class="n">t7 · Haiku ×2, Sonnet ×1</td><td>Arabic search placeholder laid out left-to-right. One of the Haiku runs also left its order-status labels left-to-right.</td><td>Skill rule 5 itself (automatic direction on an empty field). The status labels: the agent set the kit's direction on the tabs but not on the status dropdown.</td></tr>
+        <tr><td class="n">t7 · Haiku ×2</td><td>Opening-hours range forced left-to-right</td><td>Skill rule 3 itself told agents to isolate ranges written in digits.</td></tr>
+        <tr><td class="n">t6 · Haiku</td><td>Arabic drawn in the system fallback font</td><td>The agent loaded the font with an import placed where the browser ignores it.</td></tr>
+        <tr><td class="n">t5 · Haiku</td><td>Typed city name runs under the search icon</td><td>Icon placed on the right without the matching inset on that side.</td></tr>
+      </tbody>
+    </table>
+  </div>
+</section>
+
+<section>
+  <div class="eyebrow">Behind the rules</div>
+  <h2>How each rule was established</h2>
+  <div class="prose" style="display:grid;gap:14px">
+    <p>No rule in the skill was written from opinion. Each one traces to a defect measured in one of these places, and
+      to a mechanism checked in the three browser engines:</p>
+    <ul class="clean">
+      <li><strong>72 live Arabic sites built with Lovable and v0</strong>, rendered and measured: English left in labels on 47%,
+        Arabic in a fallback font on 22%, reversed phone numbers on 21%, wrong arrows on 15%.</li>
+      <li><strong>Single-mechanism lab pages</strong> in Chromium 141, Firefox 142 and WebKit 26: which values the bidi
+        algorithm reverses, what letter-spacing and italic do to Arabic, how fields and their icons interact.</li>
+      <li><strong>Native-reader rulings</strong> from the project owner on what reads correctly: phone numbers and emails read
+        left to right; values with an Arabic word and ranges stay right-to-left with the sentence; letter-spacing and
+        italic are not acceptable on Arabic.</li>
+      <li><strong>Earlier agent rounds</strong>: 24 new-build runs and 22 conversion runs before this one, which found the
+        password-icon and navigation-bar defects.</li>
+    </ul>
+  </div>
+  <div class="lab">
+    <figure><div class="img"><img src="lab/phone-email-in-rtl.chromium.png" alt="Lab: phone numbers in Arabic sentences, plain and isolated"></div><figcaption>Phone numbers inside Arabic text: plain (reversed) against isolated (correct). Same result in all three engines.</figcaption></figure>
+    <figure><div class="img"><img src="lab/password-bug-vs-fix.png" alt="Lab: password field with the bug and two fixes"></div><figcaption>The password-icon defect reproduced with real component classes, and the two fixes from rule 6.</figcaption></figure>
+    <figure><div class="img"><img src="lab/letter-spacing-zoom.webkit.png" alt="Lab: Arabic with letter-spacing in Safari's engine"></div><figcaption>Letter-spacing in Safari's engine stretches the joins between Arabic letters (judged unacceptable by the native reader); Chrome ignores it, so it looks fine while developing.</figcaption></figure>
+    <figure><div class="img"><img src="lab/auto-placeholder.png" alt="Lab: automatic-direction field, empty and typed"></div><figcaption>The v0.6 fix: an automatic-direction field kept right-to-left while empty, and a typed phone number still left-to-right.</figcaption></figure>
+  </div>
+</section>
+
+<section class="prose">
+  <div class="eyebrow">Limits</div>
+  <h2>How far these numbers go</h2>
+  <ul class="clean">
+    <li><strong>Small samples.</strong> Two runs per model, task and condition. The direction is consistent across tasks and
+      models; the exact rates are not reliable.</li>
+    <li><strong>Browsers only.</strong> Everything was rendered in browser engines. The skill is written for any UI technology,
+      but nothing has been checked on Flutter, .NET or native toolkits.</li>
+    <li><strong>The skill was handed to the agent.</strong> Whether it triggers by itself on a real request was not tested.</li>
+    <li><strong>One grader, one author.</strong> The checks and the skill come from the same evidence and the same person.
+      The screenshots above are there so a second reader can verify the defects by eye.</li>
+    <li><strong>Copy quality not graded.</strong> Whether the Arabic text reads naturally needs a native reader's review.</li>
+    <li><strong>Opus and Fable not tested in this round</strong>, by decision: they passed these checks without the skill earlier.</li>
+  </ul>
+</section>
+
+<section class="prose">
+  <div class="callout good">
+    <h3>Bottom line</h3>
+    <p>For Haiku and Sonnet doing everyday Arabic UI work, the skill cuts measured RTL defects from 29 to 7 and raises
+      fully clean results from 8 of 24 runs to 19 of 24. It helps most on new screens with forms and data (sign-up forms,
+      dashboards) and on converting existing apps. It adds nothing to fixing an already-Arabic site, which both models did
+      well alone. Two of its rules caused five of the remaining seven defects; v0.7 corrects both, and that correction
+      is the next thing to test with agents.</p>
+  </div>
+</section>
+
+<footer>
+  Skill under test: v0.5 (frozen copy). Graders, prompts, raw measurements and every screenshot are kept with the
+  repository: test plan, task prompts, per-run scores and the evidence log, under <span class="mono">evidence/</span>.
+</footer>
+
+</div>
