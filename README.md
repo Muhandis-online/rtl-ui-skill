@@ -9,6 +9,11 @@ point backwards, English left in labels, and stretched or slanted Arabic.
 Every rule in it traces to a defect that was measured on rendered pages, with the mechanism behind it. Nothing is
 there because it sounded right.
 
+- **In Arabic:** what it fixes, how to use it, and the results, on
+  [muhandis.online/tools/rtl-ui](https://muhandis.online/tools/rtl-ui?utm_source=github).
+- **The story:** how it was built, and why the first version was deleted:
+  [AI Keeps Building My Arabic Screens Left to Right](https://medium.com/@shullimaaz/ai-keeps-building-my-arabic-screens-left-to-right-749a30e01453) (Medium).
+
 ## Does it work?
 
 48 agent runs on six client-style jobs, Claude Haiku and Claude Sonnet, each job with and without the skill (v0.5),
@@ -90,4 +95,4 @@ GitHub repositories named there; their code is not included here.
 
 ## License
 
-MIT. Built by [Muhandis](https://github.com/Muhandis-online).
+MIT. Built by [Muhandis](https://muhandis.online/en?utm_source=github).
